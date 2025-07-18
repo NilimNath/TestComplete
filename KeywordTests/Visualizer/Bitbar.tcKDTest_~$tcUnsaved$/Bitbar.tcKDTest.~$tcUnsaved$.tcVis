@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{13A0CBB1-EFA8-4121-BC4D-BA15ADFDAB5A}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45287.2922453704" objectName="Aliases.browser.pageGoogle3.frameCallout" objectLeft="136" objectTop="247" objectRight="599" objectBottom="491" clickPointX="380" clickPointY="438" imageFileName="tcvi18030260923600.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45287.2922800926" objectName="Aliases.browser.pageGoogle3.formSearch.textareaSearch" objectLeft="94" objectTop="462" objectRight="496" objectBottom="496" clickPointX="118" clickPointY="480" imageFileName="tcvi18030504623601.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45287.2923148148" objectName="Aliases.browser.pageGoogle3.formSearch.textareaSearch" objectLeft="94" objectTop="462" objectRight="475" objectBottom="496" clickPointX="-814" clickPointY="-20" imageFileName="tcvi18030845323602.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45287.2923726852" objectName="Aliases.browser.pageGoogle3.textnode" objectLeft="44" objectTop="510" objectRight="685" objectBottom="549" clickPointX="199" clickPointY="532" imageFileName="tcvi18031323423603.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

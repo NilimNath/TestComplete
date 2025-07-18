@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{5BC31AF5-24BA-43C8-860D-C21397EB9606}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="android_app_launcher" />
+	<testData />
+	<data>
+		<item caption="View_UnnamedCtrl" moniker="{098CD490-0FE4-4615-91D7-7992A996C979}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\View_UnnamedCtrl.png" initialHash="00000000" selectionLeft="0" selectionTop="0" selectionWidth="1440" selectionHeight="2730" initialLeft="0" initialTop="0" initialWidth="1440" initialHeight="2730" pixelTolerance="0" colorTolerance="0" deviceName="SM-G975F" />
+		</item>
+		<item caption="View_UnnamedCtrl1" moniker="{0BC030FE-9197-430B-8F6D-AB308146DDF6}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\View_UnnamedCtrl1.png" initialHash="00000000" selectionLeft="0" selectionTop="0" selectionWidth="1440" selectionHeight="2730" initialLeft="0" initialTop="0" initialWidth="1440" initialHeight="2730" pixelTolerance="0" colorTolerance="0" deviceName="SM-G975F" />
+		</item>
+	</data>
+</Root>

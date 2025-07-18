@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Variable" key="{15F15DD4-ECA8-47F2-896C-DB9DC6DE042C}" path="Variable.js" />
+		<child name="Java_WebStart" key="{86A96F17-D7DA-4C3A-9D1A-EC761446215F}" path="Java_WebStart.js" />
+		<child name="BitBar" key="{F5F2CF09-9BF9-421B-B7BB-35DFAE8D4EC9}" path="BitBar.js" />
+		<child name="Mobile_app" key="{9FC92154-ED6B-46E5-B588-2822707C6BA3}" path="Mobile_app.js" />
+		<child name="Bat_file" key="{CD88341D-27DE-4C67-8BCD-4AA552D215F2}" path="Bat_file.js" />
+		<child name="WshShell_object" key="{F4735B56-29B1-49FF-9DC9-76931E3BF24E}" path="WshShell_object.js" />
+		<child name="CommonFunctions" key="{D31FDFF6-BCD5-4E95-BD78-AA7178812F5C}" path="CommonFunctions.js" />
+		<child name="Logs" key="{78CB2CEB-3C8B-453E-948C-9708D3A3C080}" path="Logs.js" />
+		<child name="Screenshot" key="{7048A7DF-500C-4656-9EED-FB06F9FDBD7B}" path="Screenshot.js" />
+		<child name="findelement" key="{B487E715-0B6A-4A67-BC79-7A54756CFDB7}" path="findelement.js" />
+		<child name="Notepad" key="{07A7F08D-A1C2-43A8-A9F2-6E49233F8F4F}" path="Notepad.js" />
+		<child name="Runtime_objects" key="{A96E9A52-262A-460E-8837-F155D6C800D7}" path="Runtime_objects.js" />
+		<child name="OnError" key="{847A6A6C-4A31-49A0-89E6-1F368034B941}" path="OnError.js" />
+		<child name="Grid" key="{108D7CB5-DAD0-43E8-BF7F-7C119A6E017C}" path="Grid.js" />
+		<child name="file_upload" key="{1A8BCA40-0223-4677-9F2C-BCD2046F0AA0}" path="file_upload.js" />
+		<child name="Pop_up" key="{5AD8753B-7849-4F91-B0FE-7F976EC0EB0A}" path="Pop_up.js" />
+		<child name="OCR_text" key="{476BF989-0344-4C39-95AD-517DB468F882}" path="OCR_text.js" />
+		<child name="Headless" key="{81CFB604-C3F6-4774-9047-E98D92E561EF}" path="Headless.js" />
+		<child name="Web_testing" key="{F14132BD-EC95-4392-81B1-894BB234BC0B}" path="Web_testing.js" />
+		<child name="TacoControlApp" key="{4343BA13-3AB9-4A60-A6EB-32B7947D9343}" path="TacoControlApp.js" />
+		<child name="aqDate" key="{9ECAC7B8-6790-4CDC-A1C2-B0A2B7B7A97C}" path="aqDate.js" />
+	</children>
+</Root>

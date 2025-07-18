@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7C36009-4A66-4899-99AE-DEFC5C22C057}" version="1400" key="{68E9F9E1-3B73-4FCA-97D6-2248A3DD1002}" typeId="{E7C36009-4A66-4899-99AE-DEFC5C22C057}">
+	<config nodeName="ImageRepository" />
+	<testData />
+	<data />
+	<children>
+		<child key="{ECCB990E-5A81-4B3C-8CEF-0E02D3D1C793}" path="ImageSet1.tcIRIS" />
+		<child key="{5BC31AF5-24BA-43C8-860D-C21397EB9606}" path="android_app_launcher.tcIRIS" />
+	</children>
+</Root>

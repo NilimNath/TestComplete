@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Remote_Browser" key="{45A3CC03-FD39-4146-BC08-39629427882C}" path="Remote_Browser.tcKDTest" />
+		<child name="Excel_data" key="{20FF48F9-F638-4790-B6B7-A0C895477131}" path="Excel_data.tcKDTest" />
+		<child name="CBT" key="{7B7559B5-153F-4902-B514-6115E9BE5589}" path="CBT.tcKDTest" />
+		<child name="OCR" key="{CBA1A38D-3E10-4CEC-9D77-9BBF786D5D45}" path="OCR.tcKDTest" />
+		<child name="Button_test" key="{2D5D70FD-7A4B-4DDB-87AD-A405FEF480AE}" path="Button_test.tcKDTest" />
+		<child name="Bitbar" key="{13A0CBB1-EFA8-4121-BC4D-BA15ADFDAB5A}" path="Bitbar.tcKDTest" />
+		<child name="Remote_device" key="{A9A4BAEC-E44A-45F6-821E-765320E2A733}" path="Remote_device.tcKDTest" />
+		<child name="CreateTheme" key="{479F8438-2399-4967-9B41-41345F7B5055}" path="CreateTheme.tcKDTest" />
+		<child name="Grid" key="{206C17EA-9B2F-4B18-A3AB-8096DE0FAA26}" path="Grid.tcKDTest" />
+		<child name="Incognito" key="{370C8855-D1DF-4BB2-9762-1906D22AC694}" path="Incognito.tcKDTest" />
+		<child name="Calc" key="{93963459-C066-4373-8DA7-2059FE169131}" path="Calc.tcKDTest" />
+		<child name="Froglsayer" key="{5D216CB3-3513-4F39-8ECD-B3AA7E89C0DF}" path="Froglsayer.tcKDTest" />
+		<child name="LLP" key="{15301A8C-F222-4E5E-9552-B01A40FBC829}" path="LLP.tcKDTest" />
+		<child name="SB_Secure_Tunnel" key="{8086443B-F944-4194-BC2F-744A3E06E736}" path="SB_Secure_Tunnel.tcKDTest" />
+		<child name="Scroll_down" key="{C61BD3CA-5BD0-4FE3-A321-C29D6C6C0CE1}" path="Scroll_down.tcKDTest" />
+		<child name="Explorer" key="{8D4CAA19-B6E3-4C9F-B443-85845B503437}" path="Explorer.tcKDTest" />
+		<child name="NZ_test" key="{4BF8EB31-7F08-43EC-9DEE-684D811F99DF}" path="NZ_test.tcKDTest" />
+		<child name="IBT" key="{386933F8-A0A4-46E0-A3F6-BC7DEBFAAEF6}" path="IBT.tcKDTest" />
+		<child name="Browser__test" key="{F7ADB514-5613-4A99-9B9F-0C1D6EFF0E70}" path="Browser__test.tcKDTest" />
+		<child name="Google" key="{0138524D-1CD2-43C1-BD35-39053284E17E}" path="Google.tcKDTest" />
+		<child name="BitBar_iOS" key="{FE20E759-23E5-422B-888A-59268F1C33B7}" path="BitBar_iOS.tcKDTest" />
+	</children>
+</Root>

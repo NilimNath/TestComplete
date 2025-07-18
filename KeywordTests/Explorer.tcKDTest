@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{A5D71E05-1F0C-4412-AB52-3CC5CAFCBFF2}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Drags the &apos;%n&apos; object." Action="Drag" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="100" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="213" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="2044" />
+						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="169" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.explorer.wndDownloads.Downloads.DUIViewWndClassName.DirectUIHWND.CtrlNotifySink.ShellView.DirectUIHWND;" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{43B78732-4BD1-47A4-8748-5DB3DF45F4B1}" />
+</Root>

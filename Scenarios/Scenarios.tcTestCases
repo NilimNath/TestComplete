@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenarios>
+	<Folder Name="BDD" HipTestID="2889242">
+		<Feature Path="BDD\Formulation with CucumberStudio.feature" HipTestID="2889243" />
+	</Folder>
+</Scenarios>

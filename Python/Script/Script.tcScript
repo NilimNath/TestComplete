@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit1" key="{70B1FAD9-2327-4271-8CFD-ED42D0635359}" path="Unit1.py" />
+		<child name="Speech_to_text" key="{081C5435-E49B-40E7-905D-E48AFC93A77C}" path="Speech_to_text.py" />
+		<child name="Pandas" key="{CC1AE73C-CB6B-48D8-AC10-153A7261DAFD}" path="Pandas.py" />
+		<child name="BitBar" key="{3E382038-0FAB-4448-B2BC-8CC2E0A350A0}" path="BitBar.py" />
+		<child name="File_upload" key="{F4F530F0-1901-4CE9-86A2-253E7866B680}" path="File_upload.py" />
+		<child name="pushfile" key="{5F7223F4-7C62-48AB-8770-C83C7BED07C9}" path="pushfile.py" />
+		<child name="BaseTest" key="{470BF092-64B5-42E3-91E4-11E80A264691}" path="BaseTest.py" />
+	</children>
+</Root>

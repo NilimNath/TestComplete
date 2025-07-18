@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{06CCA0D0-AFE6-4B1D-813A-E03959AE4F3A}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{8B58B895-845D-4DD4-8E8D-DB6214A99B08}">
+				<Data>
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://www.google.com" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+					<Item CloseBrowser="True" Local="False">
+						<BrowserItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;11&quot;,&quot;browserName&quot;:&quot;Chrome&quot;,&quot;version&quot;:&quot;133&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 11" Browser="Chrome 133" Resolution="1920x1080" CustomCapabilitiesInfo="" />
+						<BrowserItem Server="https://eu-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;10&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;134&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 10" Browser="Firefox 134" Resolution="1920x1080" CustomCapabilitiesInfo="" />
+					</Item>
+				</Data>
+			</Operation>
+			<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
+				<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="current">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://www.youtube.com" />
+						<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E83005D2-7D67-4F15-8314-5C5C49FCCEAF}">
+				<Data Description="Compares MaxExecTime (ms) with the execution time of the entire group.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MaxExecTime" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
+						<Parameter Name="OperationName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Test" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="2" VariableName="Group_check_value">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{CC79E703-9108-4AB2-82AB-02241BA652BA}">
+				<Data Description="Returns the number of milliseconds passed after starting or resetting the specified performance counter.">
+					<CommonData Disabled="True" />
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="CounterName" DefVarType="8" DefValueType="6" DefValueValue="DefaultCounter" VarType="8" ValueType="6" ValueValue="DefaultCounter" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Group check value is " />
+						<Parameter Name="Details" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Group_check_value" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{6AEB11BA-94D3-41C9-9F86-0D9F268884DE}" />
+</Root>

@@ -1,0 +1,170 @@
+﻿Branch 1
+Criteria
+Activity Date
+05/03/2025 to 05/03/2025
+Category
+All
+Branch
+Branch 1
+Item Group
+All
+Account Payer
+All
+Item Sub Group
+All
+Transaction GST Report
+Style
+Summary Only
+Group By
+Treating Doctor
+Treating Doctor
+All
+Staff
+All
+User Group
+All
+Patient Type
+All
+Order By
+Resource
+All
+Tax Code
+All
+Transaction Type
+All (Except Quotes)
+Items
+All Service Items
+Transaction Status All
+HERMAN, Dr GRACE [GH1]
+HERMAN, Dr GRACE [GH1]
+Page 1
+Billing
+Count
+Service
+1
+Value
+114.45
+Increase +
+0
+0.00
+114.45
+Void = Gross Bill - Billing GST = Net Bill
+0
+0.00
++
+Bad Debt = Net Adj GST Credit
+0
+0
+0.00
+Receipts
+1
+-114.45
+0.00
+Payment + Credit + Reversal = Receipts - Rcpt GST
+0
+0
+0.00
+114.45
+Net Rcpt.
+0.00
+0.00 114.45
+Billings Receipts + Adjust = Balance
+0.00
+-114.45
+0.00
+-114.45
+114.45
+-114.45
+0.00
+0.00
+Davis, Dr Phillip [PD]
+Davis, Dr Phillip [PD]
+Billing
+Service
+Count
+Value
+Receipts
+1
+71.30
+Payment +
+Increase +
+0
+0.00
+Credit +
+71.30
+Void Gross Bill Billing GST =
+0
+0.00
+-
+Net Bill
++
+0
+Bad Debt = Net Adj GST Credit
+0
+0.00
+1
+0
+-71.30
+0.00
+Reversal = Receipts - Rcpt GST
+0
+0.00
+71.30
+Net Rcpt.
+0.00
+Billings Receipts +
+0.00
+71.30
+Adjust =
+0.00
+Balance
+-71.30
+0.00
+-71.30
+71.30
+-71.30
+0.00
+0.00
+Billing
+Count
+Service
+2
+Increase
+0
++
+Void = Gross Bill - Billing GST = Net Bill + Discount + Bad Debt = Net Adj GST Credit
+Value
+185.75
+0.00
+0
+0.00
+185.75
+REPORT TOTAL
+Receipts
+Payment
+2
+-185.75
++ Credit + Reversal = Receipts - Rcpt GST
+0
+0.00
+0
+0.00
+-185.75
+05/03/2025 10:40:22 AM
+0.00
+185.75
+0
+0.00
+0
+0.00
+185.75
+0.00
+Net Rcpt.
+Billings Receipts + Adjust = Balance
+0.00
+-185.75
+185.75
+-185.75
+0.00
+0.00
+Zedmed 38.1.0.9704

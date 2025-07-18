@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="pageGoogle" key="{57A4AC3D-C0F2-4A91-9F1A-6EAAED718717}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageGoogle" ID="{57A4AC3D-C0F2-4A91-9F1A-6EAAED718717}" FileName="Regions\pageGoogle.png" Update="False" />
+		</child>
+		<child name="panelMessage" key="{5707CDF5-9690-4E26-899C-A209EF8FFEBD}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="panelMessage" ID="{5707CDF5-9690-4E26-899C-A209EF8FFEBD}" FileName="Regions\panelMessage.png" Update="False" />
+		</child>
+		<child name="pagePDF" key="{0D3F073D-1C47-4C6A-84A7-01BC4DD5C422}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pagePDF" ID="{0D3F073D-1C47-4C6A-84A7-01BC4DD5C422}" FileName="Regions\pagePDF.png" Update="False" />
+		</child>
+		<child name="pageNewfile" key="{8EF836BD-90D9-4C8B-87C0-BE45199555D1}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageNewfile" ID="{8EF836BD-90D9-4C8B-87C0-BE45199555D1}" FileName="Regions\pageNewfile.png" Update="False" />
+		</child>
+		<child name="pageView" key="{2F99A481-384C-4436-8EAB-B0CABCC26440}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageView" ID="{2F99A481-384C-4436-8EAB-B0CABCC26440}" FileName="Regions\pageView.png" Update="False" />
+		</child>
+		<child name="imageGoogle" key="{3F2EB8CD-3E60-4E3B-9294-7D997C379A1C}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="imageGoogle" ID="{3F2EB8CD-3E60-4E3B-9294-7D997C379A1C}" FileName="Regions\imageGoogle.png" Update="False" />
+		</child>
+		<child name="imageComparisonMaskSampleGif" key="{8D876702-19C5-4CB6-BC2D-EE0B24DC71EF}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="imageComparisonMaskSampleGif" ID="{8D876702-19C5-4CB6-BC2D-EE0B24DC71EF}" FileName="Regions\imageComparisonMaskSampleGif.png" Update="False" />
+		</child>
+	</children>
+</Root>

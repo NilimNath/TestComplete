@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{EDDA9BFD-3863-4715-9247-7ABF5C7C2061}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{23822434-2251-41A7-8F29-F49A1E46114C}">
+				<Data Description="Retrieves the Excel cell value and saves it as Last Operation Result.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="FileName" DefVarType="0" ParamType="{A6C17AFB-EA54-4E23-8160-6C3EF6C97F0F}" FileName="C:\Users\nilim.nath\Downloads\Back Log - Oct 1st week.xlsx" Filter="All Excel files|*.xls;*.xlsx|All files|*.*" />
+						<Parameter Name="Cell" DefVarType="0" VarType="8" ValueType="6" ValueValue="Sheet1!A1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{8109C9D2-A0E6-4A47-9DB2-20E59DF75FA2}">
+		<Items>
+			<Variable Name="Var1" Type="Table" Local="False">
+				<DefValue RowCount="2" ColumnCount="1">
+					<Columns />
+					<Row No="0" Cell0="Melb" />
+					<Row No="1" Cell0="Syd" />
+				</DefValue>
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{74CE9671-9684-49F1-9DDE-98DC6FF6A3C9}" />
+</Root>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{1C954CF7-8390-4813-A62A-51A10ADBF033}" version="1400" key="{216C7849-FB56-47A6-B3E2-2EF91645B179}" typeId="{1C954CF7-8390-4813-A62A-51A10ADBF033}">
+	<config nodeName="ManualTest1">
+		<stepInfo id="TEST_0" enabled="True" key="{EC107864-6B4D-4B8A-B44B-C6DC4405D790}" contentKey="{65469E64-6206-4FD1-9340-4367450C0B36}" caption="Manual Test" description="" notes="" iconFileName="" kdtMoniker="" kdtConvertFrom="{00000000-0000-0000-0000-000000000000}" instructionsURL="" xmlFileName="" xslFileName="" />
+		<resume enabled="False" stepID="" />
+	</config>
+	<testData />
+	<data />
+</Root>

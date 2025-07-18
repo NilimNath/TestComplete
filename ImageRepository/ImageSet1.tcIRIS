@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{ECCB990E-5A81-4B3C-8CEF-0E02D3D1C793}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="ImageSet1" />
+	<testData />
+	<data>
+		<item caption="Item1" moniker="{088A9AE3-EC47-47BD-AE40-83C7DA46C451}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Item1_1.png" initialHash="F39BE794" selectionLeft="4488" selectionTop="197" selectionWidth="61" selectionHeight="36" initialLeft="4488" initialTop="197" initialWidth="61" initialHeight="36" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="Calculator" moniker="{8F15534F-832D-4764-B3E7-6B3B4A071BFB}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Calculator_1.png" initialHash="28B6AEE9" selectionLeft="1550" selectionTop="248" selectionWidth="756" selectionHeight="714" initialLeft="1550" initialTop="248" initialWidth="756" initialHeight="714" pixelTolerance="53978" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="Outlook" moniker="{B44F18F7-4319-4099-9E30-A5EA25B10D7C}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Outlook.png" initialHash="A17C8B3E" selectionLeft="875" selectionTop="472" selectionWidth="890" selectionHeight="291" initialLeft="875" initialTop="472" initialWidth="890" initialHeight="291" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="Calculator_light" moniker="{709938B8-73F7-4942-A457-52A9F468389C}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Calculator_light_1.png" initialHash="8AAE4483" selectionLeft="4818" selectionTop="318" selectionWidth="742" selectionHeight="680" initialLeft="4818" initialTop="318" initialWidth="742" initialHeight="680" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="Desktop" moniker="{ECE0EA6F-50E2-4B2C-A5C8-AF6DFEE4A2A1}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Desktop.png" initialHash="00000000" selectionLeft="0" selectionTop="0" selectionWidth="6880" selectionHeight="1440" initialLeft="0" initialTop="0" initialWidth="6880" initialHeight="1440" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+	</data>
+</Root>

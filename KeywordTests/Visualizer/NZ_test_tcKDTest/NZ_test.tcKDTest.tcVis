@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{4BF8EB31-7F08-43EC-9DEE-684D811F99DF}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45527.1732291667" objectName="Aliases.browser.pageVideoOnDemandNewZealandParli.linkOnDemand" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi14424890187244.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45527.1732638889" objectName="Aliases.browser.pageVideoOnDemandNewZealandParli.selectItemType" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi14427796187245.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="11" kind="0" dateTime="45527.1733101852" objectName="Aliases.browser.pageVideoOnDemandNewZealandParli.selectStage" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi14432046187247.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

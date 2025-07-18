@@ -1,0 +1,32 @@
+﻿Invoice
+Invoice number
+Date of issue
+Date due
+E7AEE422-0002
+July 31, 2023
+July 31, 2023
+BitBar, Inc.
+support@bitbar.com
+$936.00 USD due July 31, 2023
+Pay online
+Description
+EX CBT
+Jul 31, 2023 - Jul 31, 2024
+E7AEE422-0002 $936.00 USD due July 31, 2023
+Bill to
+tech@truebornpublishing.com
+Subtotal
+Total
+Amount due
+Qty
+1
+Unit price
+$936.00
+SMARTBEAR
+BitBar
+Amount
+$936.00
+$936.00
+$936.00
+$936.00 USD
+Page 1 of 1

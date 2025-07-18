@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" version="15.0">
+	<children>
+		<child name="WebTesting" key="{FEA737B9-D24F-41F2-B974-B59D45E8A4F5}" type="Web Testing" typeId="{B205BEB2-E15D-463E-8F95-9AF50A3E8F46}" pluginName="Web Checkpoints" path="WebTesting\WebTesting.tcWtc" />
+		<child name="Objects" key="{EE7CD27B-1606-4390-835F-A87070C4306E}" type="Objects" typeId="{30501691-969F-4007-923F-BA4459E51E6A}" pluginName="Stores" path="Objects.tcObjects" />
+		<child name="Regions" key="{411C19FE-F1CD-4128-B443-02024CFC4EA3}" type="Regions" typeId="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" pluginName="Stores" path="Regions.tcRegions" />
+		<child name="Tables" key="{F517CCBB-9D71-4BA1-9B10-C14495E2258C}" type="Tables" typeId="{70FC6ED0-A122-4A26-9B64-EDDBB2F11A49}" pluginName="Stores" path="Tables\Tables.tcTbls" />
+		<child name="DBTables" key="{7D2682EE-44B5-4182-AE2B-159FE7FF5E82}" type="DB tables" typeId="{C3BE8E0F-FB1F-487B-9AE3-BCFEB91CBEFF}" pluginName="Stores" path="DBTables\DBTables.tcDB" />
+		<child name="Files" key="{11B188ED-4A12-4F94-AA98-33ED69691847}" type="Files" typeId="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" pluginName="Stores" path="Files.tcFiles" />
+		<child name="XML" key="{0E4A4C9E-3859-4FD3-B343-BF6AD6F0C175}" type="XML" typeId="{CCCFA5F5-AB3B-408F-95C9-61DE90C5FAD5}" pluginName="Stores" path="XML\XML.tcXmls" />
+	</children>
+</Root>
