@@ -8,7 +8,6 @@
 		<child name="ImageRepository" key="{68E9F9E1-3B73-4FCA-97D6-2248A3DD1002}" type="Image Repository" typeId="{E7C36009-4A66-4899-99AE-DEFC5C22C057}" pluginName="" path="ImageRepository\ImageRepository.tcIR" />
 		<child name="Stores" key="{5FFAABD5-5A29-4C5F-BF56-AF74523E0F06}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 		<child name="TestedApps" key="{3506AEFE-73C9-4CD6-8973-4574A79A04B4}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
-		<child name="UnitTesting1" key="{12F2204C-6C9A-47C8-AF3E-C60B3921EF4B}" type="Selenium or Unit Testing" typeId="{CCBF15D3-5453-4E8D-891C-1C74B57C6979}" pluginName="Unit Testing" path="UnitTesting1\UnitTesting1.tcUT" />
 		<child name="Scenarios" key="{CA9982E9-7852-4A3B-AE57-8FC92251CF7C}" type="Scenarios" typeId="{146B1623-3D4E-46FF-A0E5-CC234C212913}" pluginName="Gherkin / BDD" path="Scenarios\Scenarios.tcTestCases" />
 		<child name="LLCollection1" key="{E94759A3-7292-43D1-89A7-39C3FE8DC11B}" type="Low-Level Procedures Collection" typeId="{2D89293F-6B07-4679-9906-EFAE4B1A433C}" pluginName="Low-Level Procedures Container" path="LLCollection1\LLCollection1.tcLLC" />
 	</children>
