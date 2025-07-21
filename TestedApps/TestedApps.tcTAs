@@ -151,15 +151,6 @@
 			<testData />
 			<data />
 		</child>
-		<child key="{02F4D293-D16D-4219-A8CA-31D1B9BC2BE2}">
-			<config nodeName="Orders_Application" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\Public\Documents\TestComplete 15 Samples\Mobile\iOS\Orders\Orders Application.ipa" upload="True" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
 		<child key="{F84E0D53-C918-4475-BD08-23290FFC24EC}">
 			<config nodeName="rt1234_Sept_20_Bitbar_storage_" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="BitBar">
