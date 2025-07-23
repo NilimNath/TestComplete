@@ -16,7 +16,7 @@
 		<children>
 			<testItem name="ProjectTestItem2" key="{9944E1D0-D209-484D-8AE1-41D97D1DCB6E}" group="False" parallel="False" enabled="True" load="False" testMoniker="{7048A7DF-500C-4656-9EED-FB06F9FDBD7B}main" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="SWT" />
+				<environments activeCloud="LocalHeadlessBrowser" />
 				<children />
 			</testItem>
 			<testItem name="ProjectTestItem1" key="{9CB7CA18-566F-4659-8409-BD7FF59A0ADB}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{0138524D-1CD2-43C1-BD35-39053284E17E}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
