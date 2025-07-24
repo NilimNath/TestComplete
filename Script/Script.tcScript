@@ -22,5 +22,6 @@
 		<child name="Web_testing" key="{F14132BD-EC95-4392-81B1-894BB234BC0B}" path="Web_testing.js" />
 		<child name="TacoControlApp" key="{4343BA13-3AB9-4A60-A6EB-32B7947D9343}" path="TacoControlApp.js" />
 		<child name="aqDate" key="{9ECAC7B8-6790-4CDC-A1C2-B0A2B7B7A97C}" path="aqDate.js" />
+		<child name="Registry" key="{27DB471D-22D9-40DB-BBCD-54EA5BA31E4E}" path="Registry.js" />
 	</children>
 </Root>
