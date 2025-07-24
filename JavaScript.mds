@@ -14,21 +14,11 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{F4D5EC79-0AAC-4596-8FFF-1B3B1614AE8E}" version="14">
 		<children>
-			<testItem name="ProjectTestItem2" key="{9944E1D0-D209-484D-8AE1-41D97D1DCB6E}" group="False" parallel="False" enabled="True" load="False" testMoniker="{7048A7DF-500C-4656-9EED-FB06F9FDBD7B}main" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="LocalHeadlessBrowser" />
-				<children />
-			</testItem>
 			<testItem name="ProjectTestItem1" key="{9CB7CA18-566F-4659-8409-BD7FF59A0ADB}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{0138524D-1CD2-43C1-BD35-39053284E17E}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="LocalHeadlessBrowser">
 					<cloud name="LocalHeadlessBrowser" testedURL="https://www.google.com" />
 				</environments>
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem3" key="{1426DDB4-42AC-4671-AB38-B2B3CCEA7CC4}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{206C17EA-9B2F-4B18-A3AB-8096DE0FAA26}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
