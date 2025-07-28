@@ -2,7 +2,7 @@
 {
 var capabilities = {
   "platform": "Windows",
-  "osVersion": "10",
+  "osVersion": "11",
   "browserName": "Microsoft Edge",
   "version": "119",
   "resolution": "1920x1080"

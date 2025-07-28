@@ -6,7 +6,6 @@
 		<child name="CBT" key="{7B7559B5-153F-4902-B514-6115E9BE5589}" path="CBT.tcKDTest" />
 		<child name="OCR" key="{CBA1A38D-3E10-4CEC-9D77-9BBF786D5D45}" path="OCR.tcKDTest" />
 		<child name="Button_test" key="{2D5D70FD-7A4B-4DDB-87AD-A405FEF480AE}" path="Button_test.tcKDTest" />
-		<child name="Bitbar" key="{13A0CBB1-EFA8-4121-BC4D-BA15ADFDAB5A}" path="Bitbar.tcKDTest" />
 		<child name="Remote_device" key="{A9A4BAEC-E44A-45F6-821E-765320E2A733}" path="Remote_device.tcKDTest" />
 		<child name="CreateTheme" key="{479F8438-2399-4967-9B41-41345F7B5055}" path="CreateTheme.tcKDTest" />
 		<child name="Grid" key="{206C17EA-9B2F-4B18-A3AB-8096DE0FAA26}" path="Grid.tcKDTest" />
