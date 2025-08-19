@@ -17,7 +17,9 @@
 			<testItem name="ProjectTestItem1" key="{9CB7CA18-566F-4659-8409-BD7FF59A0ADB}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{0138524D-1CD2-43C1-BD35-39053284E17E}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="LocalHeadlessBrowser">
-					<cloud name="LocalHeadlessBrowser" testedURL="https://www.google.com" />
+					<cloud name="LocalHeadlessBrowser" testedURL="https://www.google.com">
+						<capabilities Enabled="True" Browser="Chrome" Resolution="3440x1440" CustomJSON="" />
+					</cloud>
 				</environments>
 				<children />
 			</testItem>
@@ -59,7 +61,7 @@
 		</data>
 	</variables>
 	<settings key="{E784F90F-2D35-4F07-843A-EE390E80E246}">
-		<settingsVersion value="15.76" />
+		<settingsVersion value="15.70" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -346,7 +348,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="18" colIndex="0">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="12" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -364,12 +366,12 @@
 				<row val0="True" val1="XTPTaskPanel" />
 				<row val0="True" val1="XTPReport" />
 				<row val0="True" val1="XTPPopupBar" />
-				<row val0="True" val1="Credential Dialog Xaml Host" />
+				<row val0="False" val1="Credential Dialog Xaml Host" />
 				<row val0="False" val1="Chrome_RenderWidgetHostHWND" />
 				<row val0="False" val1="Chrome_WidgetWin_1" />
 				<row val0="False" val1="Intermediate D3D Window" />
 				<row val0="False" val1="_WwG" />
-				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
+				<row val0="False" val1="Windows.UI.Core.CoreWindow" />
 				<row val0="False" val1="ApplicationFrameWindow" />
 			</data>
 		</setting>
@@ -414,7 +416,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="5" colIndex="0">
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="3" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -423,9 +425,9 @@
 				<row val0="False" val1="*" />
 				<row val0="True" val1="DirectUIHWND" />
 				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
-				<row val0="True" val1="EXCEL7" />
-				<row val0="True" val1="ApplicationFrameWindow" />
-				<row val0="True" val1="ApplicationFrameInputSinkWindow" />
+				<row val0="False" val1="EXCEL7" />
+				<row val0="False" val1="ApplicationFrameWindow" />
+				<row val0="False" val1="ApplicationFrameInputSinkWindow" />
 			</data>
 		</setting>
 		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
@@ -635,7 +637,7 @@
 			</data>
 		</setting>
 		<setting name="Playback_ErrHandling_ShowErrorDialog" type="1" value="True" />
-		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
+		<setting name="Playback_Log_AutosaveInterval" type="2" value="1" />
 		<setting name="Playback_Log_EventCount" type="2" value="0" />
 		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
 		<setting name="Playback_Log_SuggestMoveSelector" type="1" value="True" />

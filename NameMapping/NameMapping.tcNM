@@ -4922,6 +4922,104 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="page" Key="{971C3678-FBF5-42D7-A713-B56428E82DFC}">
+								<Image FileName="693452455" Left="14" Top="144" Right="3444" Bottom="1384" />
+								<TypeInfo Item0="{5D570FD2-B661-467D-9260-DF40A4C881C7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="" />
+										<Value Value="" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{0E276878-964D-43C8-9DFF-07459E4376A5}">
+										<Image FileName="693452455" Left="14" Top="144" Right="3425" Bottom="368" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navBooks" Key="{E459484E-019B-4F34-8E8E-8C05E92899C6}">
+										<Image FileName="693452455" Left="14" Top="306" Right="3425" Bottom="368" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Books&apos;)]" />
+												<Value Value="//nav[contains(., &apos;Books&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/nav[contains(@class, &apos;navbar&apos;)]" />
+												<Value Value="//div[3]/nav[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]/div[3]/nav" />
+												<Value Value="//header[@id=&apos;header&apos;]/div[3]/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWatches" Key="{57CEC48C-D1CC-4107-AA47-A4A421AF239A}">
+										<Image FileName="693452455" Left="1470" Top="306" Right="1570" Bottom="368" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Watches&apos;)]" />
+												<Value Value="//li[contains(., &apos;Watches&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkWatches" Key="{4835F239-C6D4-4E75-9111-0D2B58BFF1A2}">
+										<Image FileName="693452455" Left="1470" Top="306" Right="1570" Bottom="366" />
+										<TypeInfo Item0="{368593BB-DFF5-4C39-9B28-914C72E4CCA1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Watches&apos;)]" />
+												<Value Value="//a[contains(., &apos;Watches&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a[contains(@class, &apos;nav-link&apos;)]" />
+												<Value Value="//li[5]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//li[5]/a" />
+												<Value Value="//header[@id=&apos;header&apos;]//li[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a" />
+												<Value Value="//li[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWatches2" Key="{C9D87336-F331-4829-880D-C1DFA44C98C2}">
+										<Image FileName="-1331946975" Left="1482" Top="322" Right="1558" Bottom="349" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Watches&apos;]" />
+												<Value Value="//span[.=&apos;Watches&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a/span" />
+												<Value Value="//li[5]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="CortanaUI" Key="{66BBEDF6-4A6B-48DC-9732-C544D5E58C20}">
@@ -5011,7 +5109,6 @@
 						</Properties>
 						<Children>
 							<Child Name="frmLogin" Key="{7E6DB99E-B4C2-4774-A512-014C528956B9}">
-								<Image FileName="-237930082" Left="0" Top="0" Right="292" Bottom="242" />
 								<TypeInfo Item0="{774DD76A-D333-4838-A089-F4BDBDE395BD}" />
 								<Properties>
 									<Property Name="ClassName">
@@ -5025,7 +5122,6 @@
 								</Properties>
 								<Children>
 									<Child Name="edServerName" Key="{C645B5C3-EB3C-4DBB-9472-4433E2D54BF4}">
-										<Image FileName="-237930082" Left="117" Top="37" Right="280" Bottom="58" />
 										<TypeInfo Item0="{B9ECB566-C03F-46A9-807A-3ED2E241D335}" />
 										<Properties>
 											<Property Name="ClassName">
@@ -5039,7 +5135,6 @@
 										</Properties>
 									</Child>
 									<Child Name="edDatabaseName" Key="{AAA33E05-10AC-4F7F-ACB4-869A262D45B2}">
-										<Image FileName="-237930082" Left="117" Top="68" Right="280" Bottom="89" />
 										<TypeInfo Item0="{B9ECB566-C03F-46A9-807A-3ED2E241D335}" />
 										<Properties>
 											<Property Name="ClassName">
@@ -5053,7 +5148,6 @@
 										</Properties>
 									</Child>
 									<Child Name="edPassword" Key="{AFC0CC62-3362-4C17-ABF0-A7067AE6D9B1}">
-										<Image FileName="1402005966" Left="117" Top="171" Right="280" Bottom="192" />
 										<TypeInfo Item0="{B9ECB566-C03F-46A9-807A-3ED2E241D335}" />
 										<Properties>
 											<Property Name="ClassName">
@@ -5069,7 +5163,6 @@
 								</Children>
 							</Child>
 							<Child Name="frmMain" Key="{29F82D7F-7B6A-4826-B77F-B294408B9DAE}">
-								<Image FileName="2002135788" Left="0" Top="0" Right="888" Bottom="940" />
 								<Properties>
 									<Property Name="ClassName">
 										<Value Value="TfrmMain" />
@@ -5082,7 +5175,6 @@
 								</Properties>
 								<Children>
 									<Child Name="TdxDockControl" Key="{75E0557E-56CA-4E44-9B97-09888DD6F118}">
-										<Image FileName="-1125808985" Left="8" Top="31" Right="880" Bottom="81" />
 										<TypeInfo Item0="{88F6DABC-E645-466B-87B3-D5772564971A}" />
 										<Properties>
 											<Property Name="WndClass">
@@ -5100,7 +5192,6 @@
 										</Properties>
 									</Child>
 									<Child Name="pnlAllArea" Key="{0D370233-2C59-490F-A38E-C8DBF5C87242}">
-										<Image FileName="2002135788" Left="8" Top="81" Right="880" Bottom="932" />
 										<Properties>
 											<Property Name="ClassName">
 												<Value Value="TPanel" />
@@ -5113,7 +5204,6 @@
 										</Properties>
 										<Children>
 											<Child Name="plClient" Key="{B29E042F-837B-4A37-8144-1685ECE94FF2}">
-												<Image FileName="2002135788" Left="136" Top="81" Right="880" Bottom="929" />
 												<Properties>
 													<Property Name="ClassName">
 														<Value Value="TPanel" />
@@ -5126,7 +5216,6 @@
 												</Properties>
 												<Children>
 													<Child Name="frmCustomerFind" Key="{3ACFF9B5-6D0B-40F2-AACB-8CF883AE8B8E}">
-														<Image FileName="2002135788" Left="136" Top="81" Right="880" Bottom="929" />
 														<Properties>
 															<Property Name="ClassName">
 																<Value Value="TfrmCustomerFind" />
@@ -5139,7 +5228,6 @@
 														</Properties>
 														<Children>
 															<Child Name="pnlSearch" Key="{2BAA526C-9881-41BF-A958-A8330D2E80DC}">
-																<Image FileName="583042231" Left="136" Top="109" Right="880" Bottom="170" />
 																<Properties>
 																	<Property Name="ClassName">
 																		<Value Value="TPanel" />
@@ -5152,7 +5240,6 @@
 																</Properties>
 																<Children>
 																	<Child Name="btnSearch" Key="{A06E7543-DA27-4E30-B58D-1891C5681059}">
-																		<Image FileName="583042231" Left="432" Top="111" Right="521" Bottom="136" />
 																		<TypeInfo Item0="{1AFC4DA1-4ADE-4C0A-9B60-359FB5555083}" />
 																		<Properties>
 																			<Property Name="ClassName">
@@ -5718,7 +5805,6 @@
 						</Properties>
 						<Children>
 							<Child Name="dlgOpen" Key="{E6073A99-CAC7-4F68-A331-51D485434DD6}">
-								<Image FileName="-1228649639" Left="0" Top="0" Right="1500" Bottom="720" />
 								<Properties>
 									<Property Name="WndClass">
 										<Value Value="#32770" />
@@ -5731,7 +5817,6 @@
 								</Properties>
 								<Children>
 									<Child Name="cbxFileName" Key="{7512D72D-652E-42AA-A340-40A10586AFD1}">
-										<Image FileName="463485936" Left="230" Top="627" Right="1221" Bottom="656" />
 										<Properties>
 											<Property Name="WndClass">
 												<Value Value="ComboBoxEx32" />
@@ -5740,7 +5825,6 @@
 										</Properties>
 										<Children>
 											<Child Name="ComboBox" Key="{8D77E039-299E-4AAA-9DB3-4E80DD03FA25}">
-												<Image FileName="82603365" Left="230" Top="627" Right="1221" Bottom="656" />
 												<Properties>
 													<Property Name="WndClass">
 														<Value Value="ComboBox" />
@@ -5749,7 +5833,6 @@
 												</Properties>
 												<Children>
 													<Child Name="Edit" Key="{68C902D1-0F88-4772-8C9B-50C433216B0D}">
-														<Image FileName="82603365" Left="234" Top="631" Right="1197" Bottom="651" />
 														<TypeInfo Item0="{BA4C143C-77E3-4E18-9686-C9AA68F83F50}" />
 														<Properties>
 															<Property Name="WndClass">
@@ -5763,7 +5846,6 @@
 										</Children>
 									</Child>
 									<Child Name="btnOpen" Key="{99787CD6-9E5B-4DEB-897C-C3813FF54D14}">
-										<Image FileName="547780707" Left="1236" Top="663" Right="1346" Bottom="696" />
 										<TypeInfo Item0="{1AFC4DA1-4ADE-4C0A-9B60-359FB5555083}" />
 										<Properties>
 											<Property Name="WndClass">
@@ -5829,7 +5911,6 @@
 						</Properties>
 						<Children>
 							<Child Name="wndrctrl_renwnd32" Key="{F9D85B04-C09A-466F-8404-50924E794F34}">
-								<Image FileName="-669939985" Left="0" Top="0" Right="3458" Bottom="1398" />
 								<TypeInfo Item0="{053CB4A4-0409-4BAA-AE3A-CB18849E2152}" />
 								<Properties>
 									<Property Name="WndClass">
@@ -5843,7 +5924,6 @@
 								</Properties>
 								<Children>
 									<Child Name="rctrl_renwnd32" Key="{4DF06271-71C1-4099-8834-44087C631BB1}">
-										<Image FileName="-669939985" Left="862" Top="287" Right="3432" Bottom="1361" />
 										<TypeInfo Item0="{61EFBC13-5DAF-4AB8-9357-F08AB0F6778E}" />
 										<Properties>
 											<Property Name="WndClass">
@@ -5853,7 +5933,6 @@
 										</Properties>
 										<Children>
 											<Child Name="AfxWndW" Key="{695EFD56-3B12-4C59-8ABC-D8A52F6AEC3C}">
-												<Image FileName="-669939985" Left="862" Top="287" Right="3432" Bottom="1361" />
 												<TypeInfo Item0="{61EFBC13-5DAF-4AB8-9357-F08AB0F6778E}" />
 												<Properties>
 													<Property Name="WndClass">
@@ -5863,7 +5942,6 @@
 												</Properties>
 												<Children>
 													<Child Name="AfxWndW" Key="{3B4177C1-723E-44EB-B8E9-40AA2AF95303}">
-														<Image FileName="-669939985" Left="862" Top="287" Right="3432" Bottom="1361" />
 														<TypeInfo Item0="{61EFBC13-5DAF-4AB8-9357-F08AB0F6778E}" />
 														<Properties>
 															<Property Name="WndClass">
@@ -5873,7 +5951,6 @@
 														</Properties>
 														<Children>
 															<Child Name="page32770" Key="{FCF103D7-8053-4228-8CBF-A4A406B1D3F1}">
-																<Image FileName="-669939985" Left="862" Top="287" Right="3432" Bottom="1361" />
 																<TypeInfo Item0="{61EFBC13-5DAF-4AB8-9357-F08AB0F6778E}" />
 																<Properties>
 																	<Property Name="WndClass">
@@ -5883,7 +5960,6 @@
 																</Properties>
 																<Children>
 																	<Child Name="AfxWndA" Key="{149B0D0A-869B-4C6B-8E66-720EDACCF8DD}">
-																		<Image FileName="-669939985" Left="862" Top="460" Right="3432" Bottom="1361" />
 																		<TypeInfo Item0="{61EFBC13-5DAF-4AB8-9357-F08AB0F6778E}" />
 																		<Properties>
 																			<Property Name="WndClass">
@@ -5893,7 +5969,6 @@
 																		</Properties>
 																		<Children>
 																			<Child Name="panelDocument1" Key="{AC0BBB08-C7F4-4CFD-B480-797CBF3D59D0}">
-																				<Image FileName="-669939985" Left="862" Top="460" Right="3432" Bottom="1361" />
 																				<TypeInfo Item0="{DA0A0615-B5B1-46AA-9F07-1E933C8A726E}" />
 																				<Properties>
 																					<Property Name="ObjectType">
@@ -5911,7 +5986,6 @@
 																				</Properties>
 																				<Children>
 																					<Child Name="panelMessage" Key="{9FA6930F-1684-4687-BAA3-CD98757907E6}">
-																						<Image FileName="-669939985" Left="862" Top="460" Right="3411" Bottom="1340" />
 																						<TypeInfo Item0="{DA0A0615-B5B1-46AA-9F07-1E933C8A726E}" />
 																						<Properties>
 																							<Property Name="ObjectType">
@@ -5931,7 +6005,6 @@
 																				</Children>
 																			</Child>
 																			<Child Name="panelUntitledMessage" Key="{2AE01405-B6E2-46AC-835B-E4FC2EBC0817}">
-																				<Image FileName="-207610010" Left="862" Top="435" Right="3432" Bottom="1361" />
 																				<TypeInfo Item0="{DA0A0615-B5B1-46AA-9F07-1E933C8A726E}" />
 																				<Properties>
 																					<Property Name="ObjectType">
@@ -5949,7 +6022,6 @@
 																				</Properties>
 																				<Children>
 																					<Child Name="panelMessage" Key="{18C11375-24F7-42B2-8625-B31C15665C63}">
-																						<Image FileName="-207610010" Left="862" Top="435" Right="3411" Bottom="1340" />
 																						<TypeInfo Item0="{DA0A0615-B5B1-46AA-9F07-1E933C8A726E}" />
 																						<Properties>
 																							<Property Name="ObjectType">
@@ -8977,6 +9049,17 @@
 				<Child Name="object276c2dd94a38113ba4603cf3c8" Owner="{E59A984B-5D80-477C-901A-9A711AA75C54}" />
 			</Child>
 			<Child Name="pageView" Owner="{4A5F7840-F040-4EE1-B6EA-8E1AF815CB39}" />
+			<Child Name="page" Owner="{971C3678-FBF5-42D7-A713-B56428E82DFC}">
+				<Child Name="header" Owner="{0E276878-964D-43C8-9DFF-07459E4376A5}">
+					<Child Name="navBooks" Owner="{E459484E-019B-4F34-8E8E-8C05E92899C6}">
+						<Child Name="textnodeWatches" Owner="{57CEC48C-D1CC-4107-AA47-A4A421AF239A}">
+							<Child Name="linkWatches" Owner="{4835F239-C6D4-4E75-9111-0D2B58BFF1A2}">
+								<Child Name="textnodeWatches2" Owner="{C9D87336-F331-4829-880D-C1DFA44C98C2}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
 		</Child>
 		<Child Name="CortanaUI" Owner="{66BBEDF6-4A6B-48DC-9732-C544D5E58C20}">
 			<Child Name="pageBing" Owner="{7C44037B-4706-473E-A972-E1FD2530B1D2}">

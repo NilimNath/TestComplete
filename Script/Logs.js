@@ -76,3 +76,8 @@ function MainTest()
   else
     Log.Message("Email was not sent")
 }
+
+function EventControl1_OnLogError(Sender, LogParams)
+{
+  Log.Message(Sys.CPU);
+}

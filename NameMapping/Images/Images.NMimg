@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<Images>
+		<Image File="100623718.png" Checksum="693452455" />
+		<Image File="101276546.png" Checksum="-1331946975" />
 		<Image File="117694031.png" Checksum="-1600025164" />
 		<Image File="1195528281.png" Checksum="-1425721649" />
 		<Image File="1197773296.png" Checksum="-469017276" />
@@ -95,10 +97,6 @@
 		<Image File="22820359.png" Checksum="-1115152953" />
 		<Image File="22873718.png" Checksum="-1511618397" />
 		<Image File="23057234.png" Checksum="199684110" />
-		<Image File="26774156.png" Checksum="-1228649639" />
-		<Image File="26774312.png" Checksum="463485936" />
-		<Image File="26774468.png" Checksum="547780707" />
-		<Image File="27026015.png" Checksum="82603365" />
 		<Image File="270609906.png" Checksum="-1141891671" />
 		<Image File="275072890.png" Checksum="-1370406047" />
 		<Image File="283517781.png" Checksum="2041741340" />
@@ -155,8 +153,6 @@
 		<Image File="622098640.png" Checksum="1331574309" />
 		<Image File="622099000.png" Checksum="-873303141" />
 		<Image File="622596296.png" Checksum="-520166278" />
-		<Image File="65006781.png" Checksum="-237930082" />
-		<Image File="65517421.png" Checksum="1402005966" />
 		<Image File="65759140.png" Checksum="705114697" />
 		<Image File="66399812.png" Checksum="1678169007" />
 		<Image File="669343000.png" Checksum="1119579142" />
@@ -176,9 +172,6 @@
 		<Image File="707886562.png" Checksum="-34438770" />
 		<Image File="70807609.png" Checksum="1343094130" />
 		<Image File="711093.png" Checksum="1392275437" />
-		<Image File="71931343.png" Checksum="2002135788" />
-		<Image File="71931406.png" Checksum="-1125808985" />
-		<Image File="71931593.png" Checksum="583042231" />
 		<Image File="74937031.png" Checksum="-352508992" />
 		<Image File="784208109.png" Checksum="-63676270" />
 		<Image File="803400453.png" Checksum="1757633294" />
@@ -198,8 +191,6 @@
 		<Image File="8751390.png" Checksum="1188704398" />
 		<Image File="92293328.png" Checksum="-1557762232" />
 		<Image File="93052890.png" Checksum="-349070620" />
-		<Image File="94212125.png" Checksum="-669939985" />
-		<Image File="95552640.png" Checksum="-207610010" />
 		<Image File="96000984.png" Checksum="623693333" />
 		<Image File="986973156.png" Checksum="-2134956718" />
 		<Image File="987038953.png" Checksum="1246480080" />
