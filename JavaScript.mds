@@ -14,18 +14,13 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{F4D5EC79-0AAC-4596-8FFF-1B3B1614AE8E}" version="14">
 		<children>
-			<testItem name="ProjectTestItem1" key="{9CB7CA18-566F-4659-8409-BD7FF59A0ADB}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{93963459-C066-4373-8DA7-2059FE169131}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="ProjectTestItem1" key="{9CB7CA18-566F-4659-8409-BD7FF59A0ADB}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{F7ADB514-5613-4A99-9B9F-0C1D6EFF0E70}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT">
 					<cloud name="LocalHeadlessBrowser" testedURL="https://www.google.com">
 						<capabilities Enabled="True" Browser="Chrome" Resolution="3440x1440" CustomJSON="" />
 					</cloud>
 				</environments>
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem2" key="{16ED7DD5-1376-4CEA-AB00-F4BE8E7BEA00}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{CBA1A38D-3E10-4CEC-9D77-9BBF786D5D45}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
@@ -72,7 +67,7 @@
 		</data>
 	</variables>
 	<settings key="{E784F90F-2D35-4F07-843A-EE390E80E246}">
-		<settingsVersion value="15.74" />
+		<settingsVersion value="15.76" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -93,12 +88,12 @@
 			<data />
 		</setting>
 		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
-		<setting name="AzureDevOps_CollectionID" type="5" value="" />
-		<setting name="AzureDevOps_ProjectID" type="5" value="" />
-		<setting name="AzureDevOps_ServerName" type="5" value="" />
-		<setting name="AzureDevOps_TeamProject" type="5" value="" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="{D08999DD-E115-4B87-9DEB-A830C39F5D1F}" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="vstfs:///Classification/TeamProject/9173c84a-e7ab-4a4b-88d9-7582d4a0e9ff" />
+		<setting name="AzureDevOps_ServerName" type="5" value="https://dev.azure.com/nilimnath" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="TestComplete" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
-		<setting name="AzureDevOps_URL" type="5" value="" />
+		<setting name="AzureDevOps_URL" type="5" value="https://dev.azure.com/nilimnath" />
 		<setting name="BitBar_APIKey" type="5" value="3A02A040E0AF828D00C21A1EFB49382163B4E172AF3818C0FCD142F23A1E46E3A18FD0C15E381E238B24D0E1191A40264D1D9F84B0AFEAB1FFEA3200960E896B128C" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
@@ -616,7 +611,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -670,7 +665,7 @@
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="False" />
+		<setting name="Playback_StopOnError" type="1" value="True" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
