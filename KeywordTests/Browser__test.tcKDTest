@@ -3,70 +3,27 @@
 	<TestData Description="" Key="{06CCA0D0-AFE6-4B1D-813A-E03959AE4F3A}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
-				<NodeBitmaps />
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.browser.pageGoogle3" Data="61717A69700000000100000076060000780173F22D636300033320A901C42250CCC8A0006431303840E5C11C3A132CDCAC0232CE3249CE392E3D55F356AD329FB57B8F7EF3FCF9B241C929AC7C8282C43A878985894D254CB5DE7599DB678F755EFFBDD7FBFEBFF3E1FEFF9C9BFFFE7B5F84608F139FBFA865373631B1B1B3E33397958755D0BCCDF228C81C645C7AA8FCFFE52FFFFEFB40CD83996BBDE4F809360161616C6682DC65D18E6916CCDCFD8F0FFCEF7E887023C2CC1327B1B953255CB51EA6179DF65CEFFD3F767BFCFF27DFBEFD0FB98C69A67A4E4B0BB21B59B858F85D96BA7D4237277B5FEEFF732FCFFEFFF9E2F6FF9FCF6FFCFFFEEBDBFFB5AF30CDF338F9E52B2BBF9010CC4C6947997874B37280667D7BFBF0FFB73969FFBFB43A81F1B79909FF7FBE7EF83F1B296E60FE960B4E4D8599A79DA93B0BDDBC4BAF2FFDFFB6300F6E16DCCC5949FF8F7FC074A37ECB828530F38C6B4DB7239B577BB4EEFFBFAFEF31CC8299F9F1E52378DA81B9CF7CF6EE3DD8CCF3D9E0F7FFE68B47FFDFBFF8F8FF4B9B335633DFBD798E69DEAC5DBB61E66967E8CC80B96FD6A5D9FFA74CF9F27FDDBA6FFFBFAF6DC030EFFBD2E2FFBBDFFDC7304FAF71EE5C9879927652D120F322B646FDBF71EFE37F3BBB57FF3D3DDFFC7F74E7E3FF1F1B5AFF7FE970FBFFA5DDF5FFF73575FF5F7DF8F03FEE1A66F8C9F8C527C0CC63E660E6715EE4FA6EC7FD1DFF4B4B3FFCB7B47C05C6EEEEAFFF2F5EFCF5FF8DABDFFE3FBA0FC48FFEFCBFF3F0CFFFEBF751F1D96BEF3F71727373C3CC03D196115605C78EFF809B053393185A41A17502B25920361310D8DB6F3B428C7E64357A7AFB2E303171A1B80D66362BABB0A8AEEE8E13C8EAF1B1F5F4769F6165151587E9C7463332B2B1CBC894D49B99DDFB84CB2C33B3FB9F65652B9A9898D839B099814D8C99998F5F54342C4E49A97796A6E68AED20ACA4D4374B54343C1E2827804D0F2DC4003A179F48" />
+					<Bitmap Name="Aliases.browser.pageGoogle3.formSearch" Data="61717A69700000000100000076060000780173F22D636300033320A901C42250CCC8A0006431303840E5C11C3A132CDCAC0232CE3249CE392E3D55F356AD329FB57B8F7EF3FCF9B241C929AC7C8282C43A878985894D254CB5DE7599DB678F755EFFBDD7FBFEBFF3E1FEFF9C9BFFFE7B5F84608F139FBFA865373631B1B1B3E33397958755D0BCCDF228C81C645C7AA8FCFFE52FFFFEFB40CD83996BBDE4F809360161616C6682DC65D18E6916CCDCFD8F0FFCEF7E887023C2CC1327B1B953255CB51EA6179DF65CEFFD3F767BFCFF27DFBEFD0FB98C69A67A4E4B0BB21B59B858F85D96BA7D4237277B5FEEFF732FCFFEFFF9E2F6FF9FCF6FFCFFFEEBDBFFB5AF30CDF338F9E52B2BBF9010CC4C6947997874B37280667D7BFBF0FFB73969FFBFB43A81F1B79909FF7FBE7EF83F1B296E60FE960B4E4D8599A79DA93B0BDDBC4BAF2FFDFFB6300F6E16DCCC5949FF8F7FC074A37ECB828530F38C6B4DB7239B577BB4EEFFBFAFEF31CC8299F9F1E52378DA81B9CF7CF6EE3DD8CCF3D9E0F7FFE68B47FFDFBFF8F8FF4B9B335633DFBD798E69DEAC5DBB61E66967E8CC80B96FD6A5D9FFA74CF9F27FDDBA6FFFBFAF6DC030EFFBD2E2FFBBDFFDC7304FAF71EE5C9879927652D120F322B646FDBF71EFE37F3BBB57FF3D3DDFFC7F74E7E3FF1F1B5AFF7FE970FBFFA5DDF5FFF73575FF5F7DF8F03FEE1A66F8C9F8C527C0CC63E660E6715EE4FA6EC7FD1DFF4B4B3FFCB7B47C05C6EEEEAFFF2F5EFCF5FF8DABDFFE3FBA0FC48FFEFCBFF3F0CFFFEBF751F1D96BEF3F71727373C3CC03D196115605C78EFF809B053393185A41A17502B25920361310D8DB6F3B428C7E64357A7AFB2E303171A1B80D66362BABB0A8AEEE8E13C8EAF1B1F5F4769F6165151587E9C7463332B2B1CBC894D49B99DDFB84CB2C33B3FB9F65652B9A9898D839B099814D8C99998F5F54342C4E49A97796A6E68AED20ACA4D4374B54343C1E2827804D0F2DC4003A179F48" />
+				</NodeBitmaps>
 			</Extenders>
 		</Data>
 		<Children>
-			<Operation Type="{8B58B895-845D-4DD4-8E8D-DB6214A99B08}">
-				<Data>
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://www.google.com" />
-						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-					</Parameters>
-					<Item CloseBrowser="True" Local="False">
-						<BrowserItem Server="https://us-west-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;11&quot;,&quot;browserName&quot;:&quot;Chrome&quot;,&quot;version&quot;:&quot;133&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 11" Browser="Chrome 133" Resolution="1920x1080" CustomCapabilitiesInfo="" />
-						<BrowserItem Server="https://eu-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;10&quot;,&quot;browserName&quot;:&quot;Firefox&quot;,&quot;version&quot;:&quot;134&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 10" Browser="Firefox 134" Resolution="1920x1080" CustomCapabilitiesInfo="" />
-					</Item>
-				</Data>
-			</Operation>
 			<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
-				<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="current">
+				<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="edge">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://www.youtube.com" />
+						<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://smartbear.com" />
 						<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 					</Parameters>
 				</Data>
 			</Operation>
-			<Operation Type="{E83005D2-7D67-4F15-8314-5C5C49FCCEAF}">
-				<Data Description="Compares MaxExecTime (ms) with the execution time of the entire group.">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="MaxExecTime" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
-						<Parameter Name="OperationName" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Test" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
-				<Data VariableType="2" VariableName="Group_check_value">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="NewValue" DefVarType="0" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{CC79E703-9108-4AB2-82AB-02241BA652BA}">
-				<Data Description="Returns the number of milliseconds passed after starting or resetting the specified performance counter.">
+			<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
+				<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="firefox">
 					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="CounterName" DefVarType="8" DefValueType="6" DefValueValue="DefaultCounter" VarType="8" ValueType="6" ValueValue="DefaultCounter" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-				<Data Description="Posts an information message to the test log." MessageType="0">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Group check value is " />
-						<Parameter Name="Details" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Group_check_value" />
-						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
-							<Values IsEnum="True">
-								<Value Type="1" Value="100" Text="pmLowest" />
-								<Value Type="1" Value="200" Text="pmLower" />
-								<Value Type="1" Value="300" Text="pmNormal" />
-								<Value Type="1" Value="400" Text="pmHigher" />
-								<Value Type="1" Value="500" Text="pmHighest" />
-							</Values>
-						</Parameter>
-						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
-						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://smartbear.com" />
+						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 					</Parameters>
 				</Data>
 			</Operation>

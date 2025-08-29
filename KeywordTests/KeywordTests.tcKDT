@@ -21,5 +21,9 @@
 		<child name="Browser__test" key="{F7ADB514-5613-4A99-9B9F-0C1D6EFF0E70}" path="Browser__test.tcKDTest" />
 		<child name="Google" key="{0138524D-1CD2-43C1-BD35-39053284E17E}" path="Google.tcKDTest" />
 		<child name="BitBar_iOS" key="{FE20E759-23E5-422B-888A-59268F1C33B7}" path="BitBar_iOS.tcKDTest" />
+		<child name="Checkpoints" key="{EBEF3E09-53B3-4047-A2EF-FF5697A13BFC}" path="Checkpoints.tcKDTest" />
+		<child name="Salesforce_logout" key="{E8D9F607-5242-4E74-9C37-A0A1D1B8BFB8}" path="Salesforce_logout.tcKDTest" />
+		<child name="Slack" key="{40E78A61-AF10-4013-8C65-54DE5AB56029}" path="Slack.tcKDTest" />
+		<child name="Salesforce_login" key="{D06113D9-3BF6-4EA5-B46E-891E2D423302}" path="Salesforce_login.tcKDTest" />
 	</children>
 </Root>

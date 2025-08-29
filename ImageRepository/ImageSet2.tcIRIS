@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1400" key="{E7DC905C-5C9A-48DB-9FD1-99960A09D50C}" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="ImageSet2" />
+	<testData />
+	<data>
+		<item caption="articleJackets" moniker="{2BF7987E-7E0B-4469-89D5-6F3052FA8F9A}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\articleJackets.png" initialHash="1F8A39C4" selectionLeft="0" selectionTop="0" selectionWidth="215" selectionHeight="253" initialLeft="0" initialTop="0" initialWidth="215" initialHeight="253" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="FolderView" moniker="{1842C0F0-9D6B-4AB4-9AED-45A28373D45E}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\FolderView.png" initialHash="61C0093D" selectionLeft="0" selectionTop="0" selectionWidth="3440" selectionHeight="1440" initialLeft="0" initialTop="0" initialWidth="3440" initialHeight="1440" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="frameVfframeid" moniker="{8C28DB57-1CB2-4CF9-8C6B-0BB937C8EEEC}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\frameVfframeid.png" initialHash="E9D7FFA9" selectionLeft="0" selectionTop="0" selectionWidth="3257" selectionHeight="313" initialLeft="0" initialTop="0" initialWidth="3257" initialHeight="313" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="imageComparisonMaskSampleGif" moniker="{E60D98E0-D0AA-4B6D-B8D0-9A6F13046367}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\imageComparisonMaskSampleGif.png" initialHash="484E6D9B" selectionLeft="0" selectionTop="0" selectionWidth="763" selectionHeight="371" initialLeft="0" initialTop="0" initialWidth="763" initialHeight="371" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="imageGoogle" moniker="{5F86D115-269E-46FB-931B-A43FF06CF146}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\imageGoogle.png" initialHash="39C6A3A2" selectionLeft="0" selectionTop="0" selectionWidth="340" selectionHeight="115" initialLeft="0" initialTop="0" initialWidth="340" initialHeight="115" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="pageGoogle" moniker="{6F806015-1A1D-42E3-8F59-D445737BB3E7}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\pageGoogle.png" initialHash="4988761A" selectionLeft="0" selectionTop="0" selectionWidth="177" selectionHeight="73" initialLeft="0" initialTop="0" initialWidth="177" initialHeight="73" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="pageNewfile" moniker="{7B819CE5-E956-4E2C-B1FE-D9B8BA31FA48}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\pageNewfile.png" initialHash="4F938998" selectionLeft="0" selectionTop="0" selectionWidth="988" selectionHeight="1080" initialLeft="0" initialTop="0" initialWidth="988" initialHeight="1080" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="pagePDF" moniker="{3F7C60B0-EE1B-421A-A158-E1C9501343BE}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\pagePDF.png" initialHash="937D86DA" selectionLeft="0" selectionTop="0" selectionWidth="984" selectionHeight="979" initialLeft="0" initialTop="0" initialWidth="984" initialHeight="979" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="pageView" moniker="{B0025157-29B3-4153-9062-D8B45BE0581D}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\pageView.png" initialHash="B1DBCA6F" selectionLeft="0" selectionTop="0" selectionWidth="3440" selectionHeight="1229" initialLeft="0" initialTop="0" initialWidth="3440" initialHeight="1229" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="panelMessage" moniker="{FCE872D8-D45A-44D1-BAC7-46156D422B8C}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\panelMessage.png" initialHash="7C2A7F88" selectionLeft="0" selectionTop="0" selectionWidth="2549" selectionHeight="880" initialLeft="0" initialTop="0" initialWidth="2549" initialHeight="880" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+		<item caption="WwG" moniker="{534EAE93-3755-4EDE-A81B-C5828307B871}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\WwG.png" initialHash="ADE2E6F9" selectionLeft="0" selectionTop="0" selectionWidth="2551" selectionHeight="812" initialLeft="0" initialTop="0" initialWidth="2551" initialHeight="812" pixelTolerance="0" colorTolerance="0" deviceName="" />
+		</item>
+	</data>
+</Root>

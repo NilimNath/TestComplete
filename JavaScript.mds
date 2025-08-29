@@ -14,13 +14,18 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{F4D5EC79-0AAC-4596-8FFF-1B3B1614AE8E}" version="14">
 		<children>
-			<testItem name="ProjectTestItem1" key="{9CB7CA18-566F-4659-8409-BD7FF59A0ADB}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{0138524D-1CD2-43C1-BD35-39053284E17E}" count="1" timeout="0" stopOnError="0" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="ProjectTestItem1" key="{9CB7CA18-566F-4659-8409-BD7FF59A0ADB}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{93963459-C066-4373-8DA7-2059FE169131}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="LocalHeadlessBrowser">
+				<environments activeCloud="SWT">
 					<cloud name="LocalHeadlessBrowser" testedURL="https://www.google.com">
 						<capabilities Enabled="True" Browser="Chrome" Resolution="3440x1440" CustomJSON="" />
 					</cloud>
 				</environments>
+				<children />
+			</testItem>
+			<testItem name="ProjectTestItem2" key="{16ED7DD5-1376-4CEA-AB00-F4BE8E7BEA00}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{CBA1A38D-3E10-4CEC-9D77-9BBF786D5D45}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
@@ -57,11 +62,17 @@
 				<Variable Name="date_variable" Type="String" Local="False">
 					<DefValue />
 				</Variable>
+				<Variable Name="OmniStatusONLINE" Type="String" Local="False">
+					<DefValue StrValue="//ul[contains(., &apos;Omni-Channel (Online)&apos;)]" />
+				</Variable>
+				<Variable Name="OmniStatusOFFLINE" Type="String" Local="False">
+					<DefValue StrValue="//ul[contains(., &apos;Omni-Channel (Offline)&apos;)]" />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{E784F90F-2D35-4F07-843A-EE390E80E246}">
-		<settingsVersion value="15.70" />
+		<settingsVersion value="15.74" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -348,7 +359,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="12" colIndex="0">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="19" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -373,6 +384,7 @@
 				<row val0="False" val1="_WwG" />
 				<row val0="False" val1="Windows.UI.Core.CoreWindow" />
 				<row val0="False" val1="ApplicationFrameWindow" />
+				<row val0="False" val1="Afx:ToolBar:400000:8:10003:10" />
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
@@ -416,7 +428,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="3" colIndex="0">
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="6" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -428,6 +440,8 @@
 				<row val0="False" val1="EXCEL7" />
 				<row val0="False" val1="ApplicationFrameWindow" />
 				<row val0="False" val1="ApplicationFrameInputSinkWindow" />
+				<row val0="False" val1="Afx:ToolBar:400000:8:10003:10" />
+				<row val0="True" val1="Windows.UI.Composition.DesktopWindowContentBridge" />
 			</data>
 		</setting>
 		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
@@ -602,7 +616,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="2" colIndex="1">
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="0" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="2" enabled="True" />
@@ -656,7 +670,7 @@
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
 		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
-		<setting name="Playback_StopOnError" type="1" value="True" />
+		<setting name="Playback_StopOnError" type="1" value="False" />
 		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="False" />
 		<setting name="Playback_StopOnWarning" type="1" value="False" />
 		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
