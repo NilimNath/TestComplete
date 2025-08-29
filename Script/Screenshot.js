@@ -55,3 +55,17 @@ function CaptureScreenshot() {
   
   Log.Message("The object is located at: X = " + x + ", Y = " + y);
 }
+
+
+function checkpoint()
+{
+ var regions = ProjectSuite.Stores.Regions;
+  var colorTolerance = 50; // Set desired color tolerance (0–255)
+  
+  for (var i = 0; i < regions.Count; i++) {
+    var region = regions.Items(i);
+    // Update recognition parameters (if supported by your version)
+    region.ColorTolerance = colorTolerance; // Hypothetical property, check documentation
+    Log.Message("Updated color tolerance for " + region.Name + " to " + colorTolerance);
+  }
+}

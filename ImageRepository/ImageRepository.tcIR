@@ -6,5 +6,6 @@
 	<children>
 		<child key="{ECCB990E-5A81-4B3C-8CEF-0E02D3D1C793}" path="ImageSet1.tcIRIS" />
 		<child key="{5BC31AF5-24BA-43C8-860D-C21397EB9606}" path="android_app_launcher.tcIRIS" />
+		<child key="{E7DC905C-5C9A-48DB-9FD1-99960A09D50C}" path="ImageSet2.tcIRIS" />
 	</children>
 </Root>

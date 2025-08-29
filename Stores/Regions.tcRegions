@@ -22,5 +22,8 @@
 		<child name="imageComparisonMaskSampleGif" key="{8D876702-19C5-4CB6-BC2D-EE0B24DC71EF}">
 			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="imageComparisonMaskSampleGif" ID="{8D876702-19C5-4CB6-BC2D-EE0B24DC71EF}" FileName="Regions\imageComparisonMaskSampleGif.png" Update="False" />
 		</child>
+		<child name="articleJackets" key="{00212C61-19DD-4144-84D3-83681E0297BE}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="articleJackets" ID="{00212C61-19DD-4144-84D3-83681E0297BE}" FileName="Regions\articleJackets.png" Update="False" />
+		</child>
 	</children>
 </Root>

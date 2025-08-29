@@ -244,6 +244,54 @@
 												<Value Value="DesktopWindowXamlSource" />
 											</Property>
 										</Properties>
+										<Children>
+											<Child Name="Windows_UI_Input_InputSite_WindowClass" Key="{1448C434-6D29-459A-BC5B-1052AF325875}">
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="Windows.UI.Input.InputSite.WindowClass" />
+														<Value Value="Windows.UI.Input.InputSite.WindowClass" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="pane" />
+														<Value Value="pane" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Windows.UI.Input.InputSite.WindowClass" />
+														<Value Value="Windows.UI.Input.InputSite.WindowClass" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Show_Hidden_Icons" Key="{3971939C-EAF6-46F9-9F3A-C51E0CE63BBB}">
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="SystemTray.NormalButton" />
+																<Value Value="SystemTray.NormalButton" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="button" />
+																<Value Value="button" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Show_Hidden_Icons" />
+																<Value Value="Show_Hidden_Icons" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
 									</Child>
 									<Child Name="panel" Key="{617E1928-7D27-4FB2-A9C5-1F2FE557F9C8}">
 										<Properties>
@@ -741,6 +789,124 @@
 																		</Children>
 																	</Child>
 																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndTopLevelWindowForOverflowXamlIsland" Key="{2D5D6A1D-CBE4-46E1-A6E9-6D0ABE973400}">
+								<Image FileName="545659317" Left="0" Top="0" Right="293" Bottom="143" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="TopLevelWindowForOverflowXamlIsland" />
+										<Value Value="TopLevelWindowForOverflowXamlIsland" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="System tray overflow window." />
+										<Value Value="System tray overflow window." />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{2CBCF223-3E1E-4683-8900-3EA3A90C3B8C}">
+										<Image FileName="545659317" Left="0" Top="0" Right="293" Bottom="143" />
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value Value="Win32" />
+												<Value Value="Win32" />
+											</Property>
+											<Property Name="ClassName">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value Value="pane" />
+												<Value Value="pane" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="DesktopWindowXamlSource" />
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Windows_UI_Input_InputSite_WindowClass" Key="{6CE1EDDF-428A-413D-88A8-559A7F0345C9}">
+												<Image FileName="545659317" Left="0" Top="0" Right="234" Bottom="114" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="Windows.UI.Input.InputSite.WindowClass" />
+														<Value Value="Windows.UI.Input.InputSite.WindowClass" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="pane" />
+														<Value Value="pane" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Windows.UI.Input.InputSite.WindowClass" />
+														<Value Value="Windows.UI.Input.InputSite.WindowClass" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="FortiClient_FortiClient_7_0_8_0427" Key="{084F2FD7-B781-46CD-ACCB-A90DD2FD193A}">
+														<Image FileName="545659317" Left="171" Top="21" Right="221" Bottom="71" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="SystemTray.NormalButton" />
+																<Value Value="SystemTray.NormalButton" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="button" />
+																<Value Value="button" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="FortiClient_FortiClient_7_0_8_0427" />
+																<Value Value="FortiClient_FortiClient_7_0_8_0427" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="Image" Key="{4DE4922F-D62A-43C4-8F82-0F233BB63461}">
+																<Image FileName="545659317" Left="186" Top="36" Right="206" Bottom="56" />
+																<TypeInfo Item0="{834E1C39-C932-474F-BFE7-70172B6533F2}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="Image" />
+																		<Value Value="Image" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="image" />
+																		<Value Value="image" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="Image" />
+																		<Value Value="Image" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="1" Type="0" />
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
 															</Child>
 														</Children>
 													</Child>
@@ -5020,6 +5186,269 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageShop" Key="{20B428AF-BFED-4FDC-B196-C70199A20EDF}">
+								<Image FileName="1990023456" Left="9" Top="160" Right="3449" Bottom="1388" />
+								<TypeInfo Item0="{5D570FD2-B661-467D-9260-DF40A4C881C7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/" />
+										<Value Value="https://bearstore-testsite.smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{EA8A387E-61CC-48F6-8518-54862DC48E47}">
+										<Image FileName="1990023456" Left="1007" Top="414" Right="2432" Bottom="2465" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome to our store.&apos;)]" />
+												<Value Value="//section[contains(., &apos;Welcome to our store.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleJackets" Key="{52FD95E2-0EC7-4EB6-8664-D27A9DD3E62D}">
+										<Image FileName="1990023456" Left="2199" Top="593" Right="2414" Bottom="846" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Jackets&apos;)]" />
+												<Value Value="//article[contains(., &apos;Jackets&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogInUsingSalesforce" Key="{A3A887A6-FAC7-46CB-A4EB-384BF689F85D}">
+								<Image FileName="714468212" Left="9" Top="160" Right="3449" Bottom="1388" />
+								<TypeInfo Item0="{5D570FD2-B661-467D-9260-DF40A4C881C7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.my.salesforce.com/*" />
+										<Value Value="https://smartbear.my.salesforce.com/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonLogInWith" Key="{EC68E605-85BD-43EC-AED5-3D7B5469BCFB}">
+										<Image FileName="714468212" Left="632" Top="560" Right="1107" Bottom="613" />
+										<TypeInfo Item0="{4E4FAE8C-9C48-45A2-B8DC-1F92DADFFB23}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;Log in with&apos;)]" />
+												<Value Value="//button[contains(text(), &apos;Log in with&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;idp_hint_section&apos;]/div/button[contains(@class, &apos;button&apos;)]" />
+												<Value Value="//div[@id=&apos;idp_hint_section&apos;]/div/button[contains(@class, &apos;button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;idp_hint&apos;]/button" />
+												<Value Value="//div[@id=&apos;idp_hint&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;idp_hint_section&apos;]/div/button" />
+												<Value Value="//div[@id=&apos;idp_hint_section&apos;]/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageCaseSalesforce" Key="{C8C2941C-9D2B-462F-9AF5-02BF199E007D}">
+								<Image FileName="-2035132948" Left="0" Top="151" Right="3440" Bottom="1379" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.lightning.force.com/lightning/*" />
+										<Value Value="https://smartbear.lightning.force.com/lightning/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionSkipToNavigation" Key="{6AF06A8A-4212-4EC6-813E-0DF93965D455}">
+										<Image FileName="-2035132948" Left="0" Top="264" Right="3421" Bottom="1331" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOmniChannelStatus" Key="{0FEAB0A0-68BD-4DDC-9D47-9E459BAF19D2}">
+										<Image FileName="-2035132948" Left="0" Top="1330" Right="3421" Bottom="1380" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//ul[contains(., &apos;Omni-Channel (Online)&apos;)]" />
+												<Value Value="xpath=//ul[contains(., &apos;Omni-Channel (Online)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//ul[contains(@class, &apos;utilitybar&apos;)]" />
+												<Value Value="xpath=//ul[contains(@class, &apos;utilitybar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//section/div/div/div/ul" />
+												<Value Value="xpath=//section/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOmniChannelOnline2" Key="{D2461698-9FE4-4A29-A766-982C724E78D0}">
+										<Image FileName="-2035132948" Left="0" Top="1330" Right="224" Bottom="1380" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Omni-Channel (Online)&apos;]" />
+												<Value Value="//li[.=&apos;Omni-Channel (Online)&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/div/div/div/ul/li" />
+												<Value Value="//section/div/div/div/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonOmniChannelOnline" Key="{D10383F5-47E0-4DDD-881B-A90BE238E87D}">
+										<Image FileName="-2035132948" Left="0" Top="1330" Right="223" Bottom="1380" />
+										<TypeInfo Item0="{4F4262FE-078F-4D9C-9FCF-CEF7299AC4C3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Omni-Channel (Online)&apos;]" />
+												<Value Value="//button[.=&apos;Omni-Channel (Online)&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/div/div/div/ul//button[@type=&apos;button&apos;]" />
+												<Value Value="//section/div/div/div/ul//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div/div/button[contains(@class, &apos;bare&apos;)]" />
+												<Value Value="//li/div/div/button[contains(@class, &apos;bare&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/div/div/div/ul//button" />
+												<Value Value="//section/div/div/div/ul//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAvailable" Key="{1A333389-6EAC-4F78-9A11-4E195CEBF743}">
+										<Image FileName="2062779690" Left="71" Top="786" Right="409" Bottom="836" />
+										<TypeInfo Item0="{2B04FF6A-9483-4C89-A191-BFD3201ACD80}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Available&apos;]" />
+												<Value Value="//span[.=&apos;Available&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[@title=&apos;Online Status&apos;]" />
+												<Value Value="//span[@title=&apos;Online Status&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;onlineStatus&apos;)]" />
+												<Value Value="//span[contains(@class, &apos;onlineStatus&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[2]/div/div[2]/div/span" />
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[2]/div/div[2]/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonChangeYourOmniChannelStatu" Key="{19B02BF4-4D4F-44B8-8001-716B70260486}">
+										<Image FileName="-642208011" Left="409" Top="799" Right="434" Bottom="824" />
+										<TypeInfo Item0="{4F4262FE-078F-4D9C-9FCF-CEF7299AC4C3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Change your Omni-Channel status&apos;]" />
+												<Value Value="//button[.=&apos;Change your Omni-Channel status&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[2]/div/div[2]/div/div/button[contains(@class, &apos;slds-button&apos;)]" />
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[2]/div/div[2]/div/div/button[contains(@class, &apos;slds-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[2]/div/div[2]/div/div/button" />
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[2]/div/div[2]/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAvailable2" Key="{BFA14A01-DB0C-43E6-8C3B-6FC5FE949385}">
+										<Image FileName="896208737" Left="199" Top="832" Right="434" Bottom="1135" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Available&apos;)]" />
+												<Value Value="//ul[contains(., &apos;Available&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul[@role=&apos;menu&apos;]" />
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul[@role=&apos;menu&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul[contains(@class, &apos;dropdown__list&apos;)]" />
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul[contains(@class, &apos;dropdown__list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul" />
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOffline" Key="{9C38C271-1534-4F34-9130-39B23C44A2E4}">
+										<Image FileName="896208737" Left="199" Top="1092" Right="434" Bottom="1135" />
+										<TypeInfo Item0="{2B04FF6A-9483-4C89-A191-BFD3201ACD80}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Offline&apos;]" />
+												<Value Value="//a[.=&apos;Offline&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li[7]/a[@role=&apos;menuitem&apos;]" />
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li[7]/a[@role=&apos;menuitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li[7]/a" />
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li[7]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAvailable" Key="{2338F818-365B-47DE-A7D3-E3975CCEDACB}">
+										<Image FileName="2027457199" Left="9" Top="160" Right="9" Bottom="160" />
+										<TypeInfo Item0="{368593BB-DFF5-4C39-9B28-914C72E4CCA1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li/a[@role=&apos;menuitem&apos;]" />
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li/a[@role=&apos;menuitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li/a" />
+												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="CortanaUI" Key="{66BBEDF6-4A6B-48DC-9732-C544D5E58C20}">
@@ -7594,6 +8023,29 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="FortiTray" Key="{53E3F0E3-6FE1-47E4-9A40-B703809AD51D}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="FortiTray" />
+								<Value Value="FortiTray" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgFortiTrayDesktop" Key="{CEC1619E-BFEC-41DF-A49B-178DE47B1E34}">
+								<TypeInfo Item0="{8F218EC1-4B15-47E1-83C6-E6F912286246}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="FortiTray Desktop" />
+										<Value Value="FortiTray Desktop" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 			<Child Name="Mobile" Key="{74AB341E-4961-4FA5-A0FE-5D361F318C20}">
@@ -8574,7 +9026,11 @@
 		</Child>
 		<Child Name="explorer" Owner="{3AE0E573-9008-434E-A557-3276BDC01E41}">
 			<Child Name="wndShell_TrayWnd" Owner="{EA84F455-88C5-4828-B280-B87762821439}">
-				<Child Name="DesktopWindowXamlSource" Owner="{8DDF8520-E355-4302-9D78-FDE547C26CC5}" />
+				<Child Name="DesktopWindowXamlSource" Owner="{8DDF8520-E355-4302-9D78-FDE547C26CC5}">
+					<Child Name="Windows_UI_Input_InputSite_WindowClass" Owner="{1448C434-6D29-459A-BC5B-1052AF325875}">
+						<Child Name="Show_Hidden_Icons" Owner="{3971939C-EAF6-46F9-9F3A-C51E0CE63BBB}" />
+					</Child>
+				</Child>
 				<Child Name="panel" Owner="{617E1928-7D27-4FB2-A9C5-1F2FE557F9C8}">
 					<Child Name="panelDesktopwindowxamlsource" Owner="{FB3F8B0D-1ED7-4687-A587-C754A243BED0}" />
 				</Child>
@@ -8625,6 +9081,15 @@
 									<Child Name="Items_View" Owner="{EE6C5DEE-1CF0-4F98-980B-505B352B9356}" />
 								</Child>
 							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndTopLevelWindowForOverflowXamlIsland" Owner="{2D5D6A1D-CBE4-46E1-A6E9-6D0ABE973400}">
+				<Child Name="DesktopWindowXamlSource" Owner="{2CBCF223-3E1E-4683-8900-3EA3A90C3B8C}">
+					<Child Name="Windows_UI_Input_InputSite_WindowClass" Owner="{6CE1EDDF-428A-413D-88A8-559A7F0345C9}">
+						<Child Name="FortiClient_FortiClient_7_0_8_0427" Owner="{084F2FD7-B781-46CD-ACCB-A90DD2FD193A}">
+							<Child Name="Image" Owner="{4DE4922F-D62A-43C4-8F82-0F233BB63461}" />
 						</Child>
 					</Child>
 				</Child>
@@ -9060,6 +9525,29 @@
 					</Child>
 				</Child>
 			</Child>
+			<Child Name="pageShop" Owner="{20B428AF-BFED-4FDC-B196-C70199A20EDF}">
+				<Child Name="sectionContent" Owner="{EA8A387E-61CC-48F6-8518-54862DC48E47}">
+					<Child Name="articleJackets" Owner="{52FD95E2-0EC7-4EB6-8664-D27A9DD3E62D}" />
+				</Child>
+			</Child>
+			<Child Name="pageLogInUsingSalesforce" Owner="{A3A887A6-FAC7-46CB-A4EB-384BF689F85D}">
+				<Child Name="buttonLogInWith" Owner="{EC68E605-85BD-43EC-AED5-3D7B5469BCFB}" />
+			</Child>
+			<Child Name="pageCaseSalesforce" Owner="{C8C2941C-9D2B-462F-9AF5-02BF199E007D}">
+				<Child Name="sectionSkipToNavigation" Owner="{6AF06A8A-4212-4EC6-813E-0DF93965D455}">
+					<Child Name="textnodeOmniChannelStatus" Owner="{0FEAB0A0-68BD-4DDC-9D47-9E459BAF19D2}">
+						<Child Name="textnodeOmniChannelOnline2" Owner="{D2461698-9FE4-4A29-A766-982C724E78D0}">
+							<Child Name="buttonOmniChannelOnline" Owner="{D10383F5-47E0-4DDD-881B-A90BE238E87D}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeAvailable" Owner="{1A333389-6EAC-4F78-9A11-4E195CEBF743}" />
+					<Child Name="buttonChangeYourOmniChannelStatu" Owner="{19B02BF4-4D4F-44B8-8001-716B70260486}" />
+					<Child Name="textnodeAvailable2" Owner="{BFA14A01-DB0C-43E6-8C3B-6FC5FE949385}">
+						<Child Name="linkOffline" Owner="{9C38C271-1534-4F34-9130-39B23C44A2E4}" />
+						<Child Name="linkAvailable" Owner="{2338F818-365B-47DE-A7D3-E3975CCEDACB}" />
+					</Child>
+				</Child>
+			</Child>
 		</Child>
 		<Child Name="CortanaUI" Owner="{66BBEDF6-4A6B-48DC-9732-C544D5E58C20}">
 			<Child Name="pageBing" Owner="{7C44037B-4706-473E-A972-E1FD2530B1D2}">
@@ -9316,6 +9804,9 @@
 					</Child>
 				</Child>
 			</Child>
+		</Child>
+		<Child Name="FortiTray" Owner="{53E3F0E3-6FE1-47E4-9A40-B703809AD51D}">
+			<Child Name="dlgFortiTrayDesktop" Owner="{CEC1619E-BFEC-41DF-A49B-178DE47B1E34}" />
 		</Child>
 	</LogicalNodes>
 </Root>

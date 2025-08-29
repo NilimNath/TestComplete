@@ -2,5 +2,6 @@
 <Root signature="{B205BEB2-E15D-463E-8F95-9AF50A3E8F46}" version="15.0">
 	<children>
 		<child name="WebComparison1" key="{42519757-9F48-442D-B597-91CC8FF40FD4}" type="Web Comparison" typeId="{744C6E7C-6CC3-4731-B0E1-4A58319782AC}" pluginName="Web Checkpoints" path="WebComparison1.tcWcm" />
+		<child name="WebComparison2" key="{DBA61EA0-82D0-4E9E-8EA4-27382696E349}" type="Web Comparison" typeId="{744C6E7C-6CC3-4731-B0E1-4A58319782AC}" pluginName="Web Checkpoints" path="WebComparison2.tcWcm" />
 	</children>
 </Root>

@@ -8,5 +8,6 @@
 		<child name="File_upload" key="{F4F530F0-1901-4CE9-86A2-253E7866B680}" path="File_upload.py" />
 		<child name="pushfile" key="{5F7223F4-7C62-48AB-8770-C83C7BED07C9}" path="pushfile.py" />
 		<child name="BaseTest" key="{470BF092-64B5-42E3-91E4-11E80A264691}" path="BaseTest.py" />
+		<child name="Web_testing" key="{8F3CB6B9-5F92-46EF-82C8-A49A9C64C251}" path="Web_testing.py" />
 	</children>
 </Root>

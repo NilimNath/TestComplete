@@ -11,5 +11,11 @@
 
 function test()
 {
-  Aliases.browser.pageGoogle2.formSearch.submitbuttonGoogleSearch.Click();
+  let list = Sys.Browser("chrome").Page("https://www.youtube.com/watch?v=m_GiZsR3xAM").FindElement("#watch7-content").classList;
+  let name = Sys.Browser("chrome").Page("https://www.youtube.com/watch?v=m_GiZsR3xAM").FindElement("#watch7-content").className;
+  Log.Message(list.item(0));
+  Log.Message(list);
+  Log.Message(name);
+  
+  Log.Message(Sys.Browser("chrome").Page("https://www.youtube.com/watch?v=m_GiZsR3xAM").FindElement("#watch7-content").classList.item(0));
 }

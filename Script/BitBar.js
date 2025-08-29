@@ -4,11 +4,16 @@ var capabilities = {
   "platform": "Windows",
   "osVersion": "11",
   "browserName": "Microsoft Edge",
-  "version": "119",
+  "version": "138",
   "resolution": "1920x1080"
 };
 var server = "https://us-west-desktop-hub.bitbar.com/wd/hub";
 Browsers.RemoteItem(server, capabilities).Run("https://www.google.com");
+Log.Message(Browsers.RemoteItem(server, capabilities).Version);
+//Log.Message("Current browser version is: "+Browsers.RemoteItem(server, ).Version);
+Log.Message("Browser version is " +capabilities.version)
+
+
 }
 
 function SetChromeRunOptions()
@@ -98,3 +103,14 @@ var server = "https://us-west-mobile-hub.bitbar.com/wd/hub";
 Mobile.ConnectDevice(server, capabilities);
 
 }
+
+function browser_info()
+{
+  Log.Message(Browsers.CurrentBrowser.Version);
+}
+
+function Browser_version()
+{
+ Log.Message("The browser version is: " +Sys.Browser("chrome").FileVersionInfo)
+}
+
