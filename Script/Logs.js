@@ -87,3 +87,9 @@ function EventControl1_OnLogError(Sender, LogParams)
 {
   Runner.Stop()
 }
+
+function System()
+{
+  Log.Message(Sys.OSInfo.Version);
+  Log.Message(Sys.OSInfo.VirtualPC)
+}

@@ -4732,127 +4732,6 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="page00655896CaseSalesforce" Key="{A0503DD9-2776-43DD-9993-F5FD25973D23}">
-								<Properties>
-									<Property Name="ObjectType">
-										<Value Value="Page" />
-										<Value Value="Page" />
-									</Property>
-									<Property Name="URL">
-										<Value Value="https://smartbear.lightning.force.com/lightning/r/Case/500PO00000BTTgDYAX/view" />
-										<Value Value="https://smartbear.lightning.force.com/lightning/r/Case/500PO00000BTTgDYAX/view" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="sectionSkipToNavigation" Key="{A20C8D56-BBC7-457E-93F6-B74B4A5E833C}">
-										<Image FileName="1757633294" Left="0" Top="264" Right="3419" Bottom="1331" />
-										<Selectors>
-											<Selector>
-												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
-												<Value Value="//section[contains(., &apos;Skip to Navigation&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
-												<Value Value="//section[contains(@class, &apos;layoutContent&apos;)]" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="buttonEdit" Key="{39B93D8E-18F1-496E-B934-046BBE08F227}">
-										<Image FileName="1757633294" Left="2607" Top="292" Right="2676" Bottom="332" />
-										<TypeInfo Item0="{4F4262FE-078F-4D9C-9FCF-CEF7299AC4C3}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//div[@role=&apos;main&apos;]//runtime_platform_actions-executor-delayed-aura-legacy/slot/slot/lightning-button/button[@name=&apos;Edit&apos;]" />
-												<Value Value="//div[@role=&apos;main&apos;]//runtime_platform_actions-executor-delayed-aura-legacy/slot/slot/lightning-button/button[@name=&apos;Edit&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//button[.=&apos;Edit&apos;]" />
-												<Value Value="//button[.=&apos;Edit&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//ul/li[2]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-delayed-aura-legacy/slot//button[@type=&apos;button&apos;]" />
-												<Value Value="//ul/li[2]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-delayed-aura-legacy/slot//button[@type=&apos;button&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//ul/li[2]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-delayed-aura-legacy/slot//button[contains(@class, &apos;slds-button&apos;)]" />
-												<Value Value="//ul/li[2]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-delayed-aura-legacy/slot//button[contains(@class, &apos;slds-button&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@id=&apos;brandBand_25&apos;]//li[2]//slot/slot/lightning-button/button" />
-												<Value Value="//div[@id=&apos;brandBand_25&apos;]//li[2]//slot/slot/lightning-button/button" />
-											</Selector>
-											<Selector>
-												<Value Value="//ul/li[2]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-delayed-aura-legacy/slot//button" />
-												<Value Value="//ul/li[2]/runtime_platform_actions-action-renderer/runtime_platform_actions-executor-delayed-aura-legacy/slot//button" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="frameVfframeid" Key="{F132F2B4-97FD-4889-B380-558122A90501}">
-										<Image FileName="-887754202" Left="1179" Top="664" Right="2241" Bottom="977" />
-										<TypeInfo Item0="{2B04FF6A-9483-4C89-A191-BFD3201ACD80}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_case___01270000000mrwwaag___full___edit___recordlayout2/records-record-layout-block/slot/records-record-layout-section[4]//iframe[@title=&apos;accessibility title&apos;]" />
-												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_case___01270000000mrwwaag___full___edit___recordlayout2/records-record-layout-block/slot/records-record-layout-section[4]//iframe[@title=&apos;accessibility title&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_case___01270000000mrwwaag___full___edit___recordlayout2/records-record-layout-block/slot/records-record-layout-section[4]//iframe" />
-												<Value Value="//records-lwc-record-layout/forcegenerated-detailpanel_case___01270000000mrwwaag___full___edit___recordlayout2/records-record-layout-block/slot/records-record-layout-section[4]//iframe" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="buttonCanceledit" Key="{849E96DE-CD72-4769-B3EB-539F9BC9C506}">
-										<Image FileName="-543374853" Left="1970" Top="1221" Right="2059" Bottom="1261" />
-										<TypeInfo Item0="{4F4262FE-078F-4D9C-9FCF-CEF7299AC4C3}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//button[@name=&apos;CancelEdit&apos;]" />
-												<Value Value="//button[@name=&apos;CancelEdit&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//button[text()=&apos;Cancel&apos;]" />
-												<Value Value="//button[text()=&apos;Cancel&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@role=&apos;dialog&apos;]//runtime_platform_actions-executor-lwc-headless/slot/slot/lightning-button/button[@type=&apos;button&apos;]" />
-												<Value Value="//div[@role=&apos;dialog&apos;]//runtime_platform_actions-executor-lwc-headless/slot/slot/lightning-button/button[@type=&apos;button&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@role=&apos;dialog&apos;]//runtime_platform_actions-executor-lwc-headless/slot/slot/lightning-button/button[contains(@class, &apos;slds-button&apos;)]" />
-												<Value Value="//div[@role=&apos;dialog&apos;]//runtime_platform_actions-executor-lwc-headless/slot/slot/lightning-button/button[contains(@class, &apos;slds-button&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@role=&apos;dialog&apos;]//runtime_platform_actions-executor-lwc-headless/slot/slot/lightning-button/button" />
-												<Value Value="//div[@role=&apos;dialog&apos;]//runtime_platform_actions-executor-lwc-headless/slot/slot/lightning-button/button" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="frameVfframeid2" Key="{AD38C596-7B6C-4523-83BD-46AFCE263BB0}">
-										<Image FileName="1422007568" Left="1179" Top="351" Right="2241" Bottom="426" />
-										<TypeInfo Item0="{2B04FF6A-9483-4C89-A191-BFD3201ACD80}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//div[@role=&apos;dialog&apos;]//span/slot/force-aloha-page/div/iframe[@title=&apos;accessibility title&apos;]" />
-												<Value Value="//div[@role=&apos;dialog&apos;]//span/slot/force-aloha-page/div/iframe[@title=&apos;accessibility title&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[@role=&apos;dialog&apos;]//span/slot/force-aloha-page/div/iframe" />
-												<Value Value="//div[@role=&apos;dialog&apos;]//span/slot/force-aloha-page/div/iframe" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="panelEdit00655896" Key="{BC7D4D7B-32C3-4F20-9FB5-A9776577F995}">
-										<Image FileName="1488820058" Left="1135" Top="220" Right="2323" Bottom="1289" />
-										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
-										<Selectors>
-											<Selector>
-												<Value Value="//div[contains(@class, &apos;actionBody&apos;)]" />
-												<Value Value="//div[contains(@class, &apos;actionBody&apos;)]" />
-											</Selector>
-										</Selectors>
-									</Child>
-								</Children>
-							</Child>
 							<Child Name="pageScrollingReactPopupDevextrem" Key="{A1B38800-7B5F-4549-872A-077B50C9F118}">
 								<Image FileName="1198711306" Left="9" Top="160" Right="3449" Bottom="1388" />
 								<TypeInfo Item0="{5D570FD2-B661-467D-9260-DF40A4C881C7}" />
@@ -5338,7 +5217,7 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//button[.=&apos;Omni-Channel (Online)&apos;]" />
-												<Value Value="//button[.=&apos;Omni-Channel (Online)&apos;]" />
+												<Value Value="xpath=//button[.=&apos;Omni-Channel (Offline)&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//section/div/div/div/ul//button[@type=&apos;button&apos;]" />
@@ -5438,12 +5317,16 @@
 										<TypeInfo Item0="{368593BB-DFF5-4C39-9B28-914C72E4CCA1}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li/a[@role=&apos;menuitem&apos;]" />
-												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li/a[@role=&apos;menuitem&apos;]" />
+												<Value Value="xpath=//a[.=&apos;Available&apos;]" />
+												<Value Value="xpath=//a[.=&apos;Available&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li/a" />
-												<Value Value="//div[@role=&apos;dialog&apos;]//ul/li/a" />
+												<Value Value="xpath=//div[@role=&apos;dialog&apos;]//ul/li/a[@role=&apos;menuitem&apos;]" />
+												<Value Value="xpath=//div[@role=&apos;dialog&apos;]//ul/li/a[@role=&apos;menuitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[@role=&apos;dialog&apos;]//ul/li/a" />
+												<Value Value="xpath=//div[@role=&apos;dialog&apos;]//ul/li/a" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -9488,15 +9371,6 @@
 				<Child Name="navFrogslayer" Owner="{FC68B675-19EA-46C3-89C3-E9D226B4B115}">
 					<Child Name="textnodeAddAHeadline" Owner="{F57E2BF3-2613-463A-99D3-AD33EABDAEE4}" />
 				</Child>
-			</Child>
-			<Child Name="page00655896CaseSalesforce" Owner="{A0503DD9-2776-43DD-9993-F5FD25973D23}">
-				<Child Name="sectionSkipToNavigation" Owner="{A20C8D56-BBC7-457E-93F6-B74B4A5E833C}">
-					<Child Name="buttonEdit" Owner="{39B93D8E-18F1-496E-B934-046BBE08F227}" />
-				</Child>
-				<Child Name="frameVfframeid" Owner="{F132F2B4-97FD-4889-B380-558122A90501}" />
-				<Child Name="buttonCanceledit" Owner="{849E96DE-CD72-4769-B3EB-539F9BC9C506}" />
-				<Child Name="frameVfframeid2" Owner="{AD38C596-7B6C-4523-83BD-46AFCE263BB0}" />
-				<Child Name="panelEdit00655896" Owner="{BC7D4D7B-32C3-4F20-9FB5-A9776577F995}" />
 			</Child>
 			<Child Name="pageScrollingReactPopupDevextrem" Owner="{A1B38800-7B5F-4549-872A-077B50C9F118}">
 				<Child Name="frameDemoframe" Owner="{5F6D7266-9CF1-4CDD-BDC4-664105F83140}">
