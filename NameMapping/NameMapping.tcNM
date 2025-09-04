@@ -399,6 +399,117 @@
 												<Value Value="DesktopWindowXamlSource" />
 											</Property>
 										</Properties>
+										<Children>
+											<Child Name="Windows_UI_Input_InputSite_WindowClass" Key="{19E1D06E-FEBF-4609-9474-2F39FE202594}">
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="Windows.UI.Input.InputSite.WindowClass" />
+														<Value Value="Windows.UI.Input.InputSite.WindowClass" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="pane" />
+														<Value Value="pane" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Windows.UI.Input.InputSite.WindowClass" />
+														<Value Value="Windows.UI.Input.InputSite.WindowClass" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TaskbarFrame" Key="{75DC6600-6073-4CA7-901F-D7A494937154}">
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Taskbar.TaskbarFrameAutomationPeer" />
+																<Value Value="Taskbar.TaskbarFrameAutomationPeer" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="pane" />
+																<Value Value="pane" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="TaskbarFrame" />
+																<Value Value="TaskbarFrame" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TaskbarFrameRepeater" Key="{7C9CCA46-B496-440A-9773-0E86A504C4AB}">
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="group" />
+																		<Value Value="group" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="TaskbarFrameRepeater" />
+																		<Value Value="TaskbarFrameRepeater" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="TestComplete_15_1_running_window" Key="{1834A354-34B6-4FDC-ACF9-AC4EFE695B87}">
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value Value="XAML" />
+																				<Value Value="XAML" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value Value="Taskbar.TaskListButtonAutomationPeer" />
+																				<Value Value="Taskbar.TaskListButtonAutomationPeer" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value Value="button" />
+																				<Value Value="button" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="TestComplete_15_1_running_window" />
+																				<Value Value="TestComplete_15_1_running_window" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Icon" Key="{A2DE28EF-8C1A-429C-B527-DFEBD6114291}">
+																				<TypeInfo Item0="{834E1C39-C932-474F-BFE7-70172B6533F2}" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="XAML" />
+																						<Value Value="XAML" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="Image" />
+																						<Value Value="Image" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="image" />
+																						<Value Value="image" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="Icon" />
+																						<Value Value="Icon" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
 									</Child>
 								</Children>
 							</Child>
@@ -5181,24 +5292,7 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnodeOmniChannelStatus" Key="{0FEAB0A0-68BD-4DDC-9D47-9E459BAF19D2}">
-										<Image FileName="-2035132948" Left="0" Top="1330" Right="3421" Bottom="1380" />
-										<Selectors>
-											<Selector>
-												<Value Value="xpath=//ul[contains(., &apos;Omni-Channel (Online)&apos;)]" />
-												<Value Value="xpath=//ul[contains(., &apos;Omni-Channel (Online)&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="xpath=//ul[contains(@class, &apos;utilitybar&apos;)]" />
-												<Value Value="xpath=//ul[contains(@class, &apos;utilitybar&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="xpath=//section/div/div/div/ul" />
-												<Value Value="xpath=//section/div/div/div/ul" />
-											</Selector>
-										</Selectors>
-									</Child>
-									<Child Name="textnodeOmniChannelOnline2" Key="{D2461698-9FE4-4A29-A766-982C724E78D0}">
+									<Child Name="textnodeOmniChannelStatus" Key="{D2461698-9FE4-4A29-A766-982C724E78D0}">
 										<Image FileName="-2035132948" Left="0" Top="1330" Right="224" Bottom="1380" />
 										<Selectors>
 											<Selector>
@@ -5327,6 +5421,73 @@
 											<Selector>
 												<Value Value="xpath=//div[@role=&apos;dialog&apos;]//ul/li/a" />
 												<Value Value="xpath=//div[@role=&apos;dialog&apos;]//ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContinueLoggingInto" Key="{3C5AE452-ECA9-4759-81D1-E4770C8049D1}">
+										<Image FileName="-1688456539" Left="984" Top="493" Right="1592" Bottom="518" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Continue logging into Omni-Channel?&apos;]" />
+												<Value Value="//h1[.=&apos;Continue logging into Omni-Channel?&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/h1[contains(@class, &apos;title&apos;)]" />
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/h1[contains(@class, &apos;title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/h1" />
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContinueLoggingInto2" Key="{70666CBF-9036-4877-9AF6-9E6B38A633FA}">
+										<Image FileName="-1688456539" Left="1120" Top="492" Right="1457" Bottom="519" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Continue logging into Omni-Channel?&apos;]" />
+												<Value Value="//span[.=&apos;Continue logging into Omni-Channel?&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1/span[contains(@class, &apos;uiOutputText&apos;)]" />
+												<Value Value="//h1/span[contains(@class, &apos;uiOutputText&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/h1/span" />
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/h1/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonContinue" Key="{3D0D88E0-31C7-44BB-94D1-F7F4738CAB04}">
+										<Image FileName="2052254477" Left="1506" Top="616" Right="1592" Bottom="648" />
+										<TypeInfo Item0="{4E4FAE8C-9C48-45A2-B8DC-1F92DADFFB23}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Continue&apos;]" />
+												<Value Value="//button[.=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;slds-button_brand&apos;)]" />
+												<Value Value="//button[contains(@class, &apos;slds-button_brand&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOmniChannelStatusBar" Key="{0FEAB0A0-68BD-4DDC-9D47-9E459BAF19D2}">
+										<Image FileName="-2035132948" Left="0" Top="1330" Right="3421" Bottom="1380" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//ul[contains(@class, &apos;utilitybar&apos;)]" />
+												<Value Value="xpath=//ul[contains(@class, &apos;utilitybar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//ul[contains(., &apos;Omni-Channel (Online)&apos;)]" />
+												<Value Value="xpath=//ul[contains(., &apos;Omni-Channel (Online)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//section/div/div/div/ul" />
+												<Value Value="xpath=//section/div/div/div/ul" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -7929,6 +8090,148 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="slack" Key="{83CBD598-112C-4985-B98E-4109678D350E}">
+						<TypeInfo Item0="{EEF2B196-01DC-480D-93A4-0E8CFE770B06}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="slack" />
+								<Value Value="slack" />
+							</Property>
+							<Property Name="Index">
+								<Value Value="1" Type="0" />
+								<Value Value="1" Type="0" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageVickySharmaDmSmartbearOrgSla" Key="{FC4BE0A3-064A-40CD-B781-149C70B6F163}">
+								<Image FileName="391048902" Left="0" Top="0" Right="1502" Bottom="1000" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://app.slack.com/client/E029SJ55Y4T/D04RLRH9KT4" />
+										<Value Value="https://app.slack.com/client/E029SJ55Y4T/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{D6BA5D39-D25E-40F2-8D10-4FF9B09A4D48}">
+										<Image FileName="391048902" Left="1321" Top="5" Right="1494" Bottom="45" />
+										<TypeInfo Item0="{2B04FF6A-9483-4C89-A191-BFD3201ACD80}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;p-ia4_top_nav__windows_controls&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;p-ia4_top_nav__windows_controls&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonNilimNath" Key="{BD6EFCE1-5180-486C-AADD-BAB99A815C20}">
+										<Image FileName="661951469" Left="21" Top="1305" Right="66" Bottom="1350" />
+										<TypeInfo Item0="{4F4262FE-078F-4D9C-9FCF-CEF7299AC4C3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div/div[@role=&apos;none&apos;]/button[@type=&apos;button&apos;]" />
+												<Value Value="//div[2]/div/div[@role=&apos;none&apos;]/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@aria-describedby=&apos;sk-tooltip-9&apos;]" />
+												<Value Value="//button[@aria-describedby=&apos;sk-tooltip-9&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div[@role=&apos;none&apos;]/button[contains(@class, &apos;c-button-unstyled&apos;)]" />
+												<Value Value="//div[2]/div/div[@role=&apos;none&apos;]/button[contains(@class, &apos;c-button-unstyled&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/div[@role=&apos;none&apos;]/button" />
+												<Value Value="//div[2]/div/div[@role=&apos;none&apos;]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonMenu1612" Key="{CCA84D93-444E-47DD-A9DF-9B53239EFB52}">
+										<Image FileName="789433245" Left="81" Top="1062" Right="456" Bottom="1097" />
+										<TypeInfo Item0="{4F4262FE-078F-4D9C-9FCF-CEF7299AC4C3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Set yourself as&apos;)]" />
+												<Value Value="//button[contains(., &apos;Set yourself as&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#menu-161-2" />
+												<Value Value="#menu-161-2" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button[@role=&apos;menuitem&apos;]" />
+												<Value Value="//div[3]/button[@role=&apos;menuitem&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/button[contains(@class, &apos;c-menu_item__button&apos;)]" />
+												<Value Value="//div[3]/button[contains(@class, &apos;c-menu_item__button&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSetToActive" Key="{A9509D15-12CB-4D7D-B7BD-FDA4699BCCA7}">
+										<Image FileName="-128289165" Left="1882" Top="756" Right="2019" Bottom="801" />
+										<TypeInfo Item0="{4E4FAE8C-9C48-45A2-B8DC-1F92DADFFB23}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Set to Active&apos;]" />
+												<Value Value="//button[.=&apos;Set to Active&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;c-button--primary&apos;)]" />
+												<Value Value="//button[contains(@class, &apos;c-button--primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vgActive" Key="{219220D0-1340-43B4-B6C1-38667B2EE963}">
+										<Image FileName="-1241260034" Left="58" Top="1342" Right="83" Bottom="1367" />
+										<TypeInfo Item0="{FFDE247A-55B4-4806-9EFB-B71E26460A40}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//button//*[name()=&apos;svg&apos;][@aria-label=&apos;Active&apos;]" />
+												<Value Value="//div[2]//button//*[name()=&apos;svg&apos;][@aria-label=&apos;Active&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//button//*[name()=&apos;svg&apos;][@title=&apos;Active&apos;]" />
+												<Value Value="//div[2]//button//*[name()=&apos;svg&apos;][@title=&apos;Active&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;tabpanel&apos;]/div[2]//div[2]//div[@role=&apos;none&apos;]/button//span[2]/*[name()=&apos;svg&apos;]" />
+												<Value Value="//div[@role=&apos;tabpanel&apos;]/div[2]//div[2]//div[@role=&apos;none&apos;]/button//span[2]/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{EACF60D4-BF86-4D80-8E09-B947FB665E64}">
+								<Image FileName="235071727" Left="0" Top="0" Right="1502" Bottom="1000" />
+								<TypeInfo Item0="{053CB4A4-0409-4BAA-AE3A-CB18849E2152}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{487387CD-F624-4942-89EE-4401CBCD9AE9}">
+										<Image FileName="-749309017" Left="0" Top="0" Right="1503" Bottom="1000" />
+										<TypeInfo Item0="{61EFBC13-5DAF-4AB8-9357-F08AB0F6778E}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 			<Child Name="Mobile" Key="{74AB341E-4961-4FA5-A0FE-5D361F318C20}">
@@ -8925,7 +9228,17 @@
 			</Child>
 			<Child Name="listTaskSwitcher" Owner="{C31BDB43-0673-488F-A397-88AB192F92DF}" />
 			<Child Name="wndShell_SecondaryTrayWnd" Owner="{71E1BFF3-BAAD-4083-AA6B-9F4341191068}">
-				<Child Name="DesktopWindowXamlSource" Owner="{C2B47C77-52DD-4D40-9BDC-8CEF9CBB4368}" />
+				<Child Name="DesktopWindowXamlSource" Owner="{C2B47C77-52DD-4D40-9BDC-8CEF9CBB4368}">
+					<Child Name="Windows_UI_Input_InputSite_WindowClass" Owner="{19E1D06E-FEBF-4609-9474-2F39FE202594}">
+						<Child Name="TaskbarFrame" Owner="{75DC6600-6073-4CA7-901F-D7A494937154}">
+							<Child Name="TaskbarFrameRepeater" Owner="{7C9CCA46-B496-440A-9773-0E86A504C4AB}">
+								<Child Name="TestComplete_15_1_running_window" Owner="{1834A354-34B6-4FDC-ACF9-AC4EFE695B87}">
+									<Child Name="Icon" Owner="{A2DE28EF-8C1A-429C-B527-DFEBD6114291}" />
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
 			</Child>
 			<Child Name="wndProgman" Owner="{BB5A5461-AF7D-4430-999C-4FC0D22B1249}">
 				<Child Name="SHELLDLL_DefView" Owner="{10A30F09-A082-4627-B1C7-76F6762F802D}">
@@ -9409,8 +9722,8 @@
 			</Child>
 			<Child Name="pageCaseSalesforce" Owner="{C8C2941C-9D2B-462F-9AF5-02BF199E007D}">
 				<Child Name="sectionSkipToNavigation" Owner="{6AF06A8A-4212-4EC6-813E-0DF93965D455}">
-					<Child Name="textnodeOmniChannelStatus" Owner="{0FEAB0A0-68BD-4DDC-9D47-9E459BAF19D2}">
-						<Child Name="textnodeOmniChannelOnline2" Owner="{D2461698-9FE4-4A29-A766-982C724E78D0}">
+					<Child Name="textnodeOmniChannelStatusBar" Owner="{0FEAB0A0-68BD-4DDC-9D47-9E459BAF19D2}">
+						<Child Name="textnodeOmniChannelStatus" Owner="{D2461698-9FE4-4A29-A766-982C724E78D0}">
 							<Child Name="buttonOmniChannelOnline" Owner="{D10383F5-47E0-4DDD-881B-A90BE238E87D}" />
 						</Child>
 					</Child>
@@ -9421,6 +9734,10 @@
 						<Child Name="linkAvailable" Owner="{2338F818-365B-47DE-A7D3-E3975CCEDACB}" />
 					</Child>
 				</Child>
+				<Child Name="textnodeContinueLoggingInto" Owner="{3C5AE452-ECA9-4759-81D1-E4770C8049D1}">
+					<Child Name="textnodeContinueLoggingInto" Owner="{70666CBF-9036-4877-9AF6-9E6B38A633FA}" />
+				</Child>
+				<Child Name="buttonContinue" Owner="{3D0D88E0-31C7-44BB-94D1-F7F4738CAB04}" />
 			</Child>
 		</Child>
 		<Child Name="CortanaUI" Owner="{66BBEDF6-4A6B-48DC-9732-C544D5E58C20}">
@@ -9681,6 +9998,19 @@
 		</Child>
 		<Child Name="FortiTray" Owner="{53E3F0E3-6FE1-47E4-9A40-B703809AD51D}">
 			<Child Name="dlgFortiTrayDesktop" Owner="{CEC1619E-BFEC-41DF-A49B-178DE47B1E34}" />
+		</Child>
+		<Child Name="slack" Owner="{83CBD598-112C-4985-B98E-4109678D350E}">
+			<Child Name="pageSmartbearOrgSla" Owner="{FC4BE0A3-064A-40CD-B781-149C70B6F163}">
+				<Child Name="panel" Owner="{D6BA5D39-D25E-40F2-8D10-4FF9B09A4D48}" />
+				<Child Name="buttonNilimNath" Owner="{BD6EFCE1-5180-486C-AADD-BAB99A815C20}">
+					<Child Name="vgActive" Owner="{219220D0-1340-43B4-B6C1-38667B2EE963}" />
+				</Child>
+				<Child Name="buttonMenu_set_status" Owner="{CCA84D93-444E-47DD-A9DF-9B53239EFB52}" />
+				<Child Name="buttonSetToActive" Owner="{A9509D15-12CB-4D7D-B7BD-FDA4699BCCA7}" />
+			</Child>
+			<Child Name="slackWIndow_without_CEF" Owner="{EACF60D4-BF86-4D80-8E09-B947FB665E64}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{487387CD-F624-4942-89EE-4401CBCD9AE9}" />
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>

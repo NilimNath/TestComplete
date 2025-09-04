@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{206F52D3-87A0-496B-8442-FE6E86FA822D}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="45902.2015473148" objectName="Aliases.slack.BrowserWindow(0)" objectLeft="-9" objectTop="-9" objectRight="3449" objectBottom="1389" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-2147061453413121.png" storageFileName="tcvi-2147061453413121.7z" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="16" kind="0" dateTime="45902.2016651968" objectName="Aliases.slack.pageSmartbearOrgSla.buttonNilimNath" objectLeft="21" objectTop="1305" objectRight="66" objectBottom="1350" clickPointX="43" clickPointY="1327" imageFileName="tcvi-2147053609413124.png" storageFileName="tcvi-2147053609413124.7z" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="17" kind="0" dateTime="45902.2017645023" objectName="Aliases.slack.pageSmartbearOrgSla.buttonMenu_set_status" objectLeft="81" objectTop="1062" objectRight="456" objectBottom="1097" clickPointX="268" clickPointY="1079" imageFileName="tcvi-2147044765413127.png" storageFileName="tcvi-2147044765413127.7z" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

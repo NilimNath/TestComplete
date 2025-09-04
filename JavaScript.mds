@@ -14,13 +14,18 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{F4D5EC79-0AAC-4596-8FFF-1B3B1614AE8E}" version="14">
 		<children>
-			<testItem name="ProjectTestItem1" key="{9CB7CA18-566F-4659-8409-BD7FF59A0ADB}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{F7ADB514-5613-4A99-9B9F-0C1D6EFF0E70}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="ProjectTestItem1" key="{9CB7CA18-566F-4659-8409-BD7FF59A0ADB}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{206F52D3-87A0-496B-8442-FE6E86FA822D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT">
 					<cloud name="LocalHeadlessBrowser" testedURL="https://www.google.com">
 						<capabilities Enabled="True" Browser="Chrome" Resolution="3440x1440" CustomJSON="" />
 					</cloud>
 				</environments>
+				<children />
+			</testItem>
+			<testItem name="ProjectTestItem2" key="{1318A2B7-D12F-4EA6-BFB5-29640C386AE7}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{433691B0-0817-469C-A259-4153241C0623}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
@@ -67,7 +72,7 @@
 		</data>
 	</variables>
 	<settings key="{E784F90F-2D35-4F07-843A-EE390E80E246}">
-		<settingsVersion value="15.76" />
+		<settingsVersion value="15.77" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -354,7 +359,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="19" colIndex="0">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="18" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -373,7 +378,6 @@
 				<row val0="True" val1="XTPReport" />
 				<row val0="True" val1="XTPPopupBar" />
 				<row val0="False" val1="Credential Dialog Xaml Host" />
-				<row val0="False" val1="Chrome_RenderWidgetHostHWND" />
 				<row val0="False" val1="Chrome_WidgetWin_1" />
 				<row val0="False" val1="Intermediate D3D Window" />
 				<row val0="False" val1="_WwG" />
@@ -423,7 +427,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="6" colIndex="0">
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="7" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />

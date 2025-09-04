@@ -78,15 +78,12 @@ function MainTest()
 }
 
 
-function EventControl1_OnStopTestCase(Sender, StopTestCaseParams)
-{
-  Log.Warning("Warning")
-}
 
-function EventControl1_OnLogError(Sender, LogParams)
-{
-  Runner.Stop()
-}
+
+//function EventControl1_OnLogError(Sender, LogParams)
+//{
+//  Runner.Stop()
+//}
 
 function System()
 {

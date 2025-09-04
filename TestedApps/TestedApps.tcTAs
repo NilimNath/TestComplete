@@ -40,13 +40,25 @@
 			<testData />
 			<data />
 		</child>
-		<child key="{08A98337-722E-4741-8BFE-B9E0ACCC77FF}">
-			<config nodeName="slack" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+		<child key="{3C3BAD81-0B43-4250-ACE9-7857F1476BED}">
+			<config nodeName="slack_using_CEF" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="-cdpAutoSetPort" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="-cdpAutoSetPort" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="-cdpAutoSetPort" workFolder="" />
-					<param name="Simple" fileName="slack.exe" filePath="C:\Users\nilim.nath\AppData\Local\slack\" parameters="-cdpAutoSetPort" workFolder="" />
+					<param name="Simple" fileName="slack.exe" filePath="C:\Users\nilim.nath\AppData\Local\slack\app-4.45.69\" parameters="-cdpAutoSetPort" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{C667FB1F-C6CB-4FBE-BAE6-AB6C53901E72}">
+			<config nodeName="slack_without_CEF" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="slack.exe" filePath="C:\Users\nilim.nath\AppData\Local\slack\" parameters="" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />
