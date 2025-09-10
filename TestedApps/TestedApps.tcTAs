@@ -16,30 +16,6 @@
 			<testData />
 			<data />
 		</child>
-		<child key="{A38F2A59-FF94-4854-9E6B-730DF776895E}">
-			<config nodeName="iTunes" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
-					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
-					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="iTunes.exe" filePath="C:\Program Files\iTunes\" parameters="" workFolder="" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-		<child key="{C3B6CFE9-A778-4F23-8184-B0AC690CC836}">
-			<config nodeName="notepad" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="Debug">
-					<param name="RunAs" parameters="" workFolder="C:\Program Files\Notepad++" userName="" password="" domain="" />
-					<param name="Profile" parameters="" workFolder="C:\Program Files\Notepad++" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
-					<param name="Debug" parameters="" workFolder="C:\Program Files\Notepad++" />
-					<param name="Simple" fileName="notepad++.exe" filePath="C:\Program Files\Notepad++\" parameters="" workFolder="C:\Program Files\Notepad++" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
 		<child key="{3C3BAD81-0B43-4250-ACE9-7857F1476BED}">
 			<config nodeName="slack_using_CEF" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
 				<runModeParams activeRunMode="Simple">
@@ -76,10 +52,34 @@
 			<testData />
 			<data />
 		</child>
+		<child key="{95D942D3-AC21-445C-B8E2-7C62E4C84641}">
+			<config nodeName="RDP_Client" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="mstsc.exe" filePath="C:\Windows\System32\" parameters="" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
 		<child key="{6315EBAF-3586-4BAF-AB77-2E6D7D810091}">
 			<config nodeName="SmartBearBrowser" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Android">
 					<param name="Android" parameters="" workFolder="" apkFileName="C:\Program Files (x86)\SmartBear\TestComplete 15\Bin\Extensions\Android\SmartBearBrowser.apk" deploy="True" keepDataAndCache="False" grantPermissions="True" signAPKWithCustom="False" keystorePath="" alias="" keystorePassword="" keyPassword="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{9647E00D-3A85-4803-932D-3557B174167D}">
+			<config nodeName="tcFirefoxRunner" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="tcFirefoxRunner.exe" filePath="C:\Program Files (x86)\SmartBear\TestComplete 15\x64\Bin\" parameters="" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />
@@ -103,18 +103,6 @@
 			<testData />
 			<data />
 		</child>
-		<child key="{D321FD72-52AE-40C2-B264-DAD91F146F8B}">
-			<config nodeName="calc" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
-					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
-					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="calc.exe" filePath="C:\Windows\System32\" parameters="" workFolder="" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
 		<child key="{09ED70BD-C79D-4DDF-80BC-F7580B527783}">
 			<config nodeName="SmartBearSample" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
@@ -122,18 +110,6 @@
 					<param name="Profile" parameters="-injectCefHook" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="-injectCefHook" workFolder="" />
 					<param name="Simple" fileName="SmartBearSample.exe" filePath="C:\Users\nilim.nath\Downloads\SmartBearSample\SmartBearSample\bin\Debug\" parameters="-injectCefHook" workFolder="" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-		<child key="{39827C09-51B7-449D-A888-ACC9EA6ABD78}">
-			<config nodeName="Orders" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
-					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
-					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="Orders.exe" filePath="C:\Users\Public\Documents\TestComplete 15 Samples\Desktop\Orders\C#\bin\Release\" parameters="" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />
@@ -151,55 +127,10 @@
 			<testData />
 			<data />
 		</child>
-		<child key="{5551153E-E615-478C-9314-966250E22D45}">
-			<config nodeName="app_stagingcupid_debug" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\nilim.nath\Downloads\app-stagingcupid-debug.apk\app-stagingcupid-debug.apk" upload="True" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-		<child key="{EED5645D-1F14-4A93-B68D-C47ED1C51E37}">
-			<config nodeName="__1_6_dev_3_" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\nilim.nath\Downloads\1.1.6-dev_3_.apk" upload="True" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-		<child key="{E41FC1FD-9BCD-4A63-9798-79573B328A51}">
-			<config nodeName="app_release" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\nilim.nath\Downloads\app-release.apk" upload="True" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
 		<child key="{2F6DA58C-7D76-4947-B1DC-3B4DF3B298C1}">
 			<config nodeName="app_uat" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="BitBar">
 					<param name="BitBar" parameters="" workFolder="" application="C:\Users\nilim.nath\Downloads\app-uat.apk" upload="True" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-		<child key="{1302118C-59E9-4AFC-A48A-84857D846947}">
-			<config nodeName="Potbelly" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\nilim.nath\Downloads\Potbelly.ipa" upload="True" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-		<child key="{9CCF8CD3-8ABD-4459-9AE7-F4CC0DEF19F7}">
-			<config nodeName="com_lynden_crossdock" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\nilim.nath\Downloads\com.lynden.crossdock.apk" upload="True" />
 				</runModeParams>
 			</config>
 			<testData />
@@ -214,15 +145,6 @@
 			<testData />
 			<data />
 		</child>
-		<child key="{D9F83170-48A9-420C-8E71-AB1E0DA20420}">
-			<config nodeName="Breezeworks" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\nilim.nath\Downloads\Breezeworks.ipa" upload="True" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
 		<child key="{64D108E3-BA3D-4FF5-97B8-A6478C4FEC50}">
 			<config nodeName="SmartBear_SecureTunnel" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
@@ -230,24 +152,6 @@
 					<param name="Profile" parameters="-cdpAutoSetPort" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="-cdpAutoSetPort" workFolder="" />
 					<param name="Simple" fileName="SmartBear SecureTunnel.exe" filePath="C:\Users\nilim.nath\AppData\Local\Programs\SBSecureTunnel\" parameters="-cdpAutoSetPort" workFolder="" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-		<child key="{2DA95A4A-40CD-4FA5-A5AE-BDAF1F72AE3D}">
-			<config nodeName="com_jeancoutu_pjc__1_" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\nilim.nath\Downloads\com.jeancoutu.pjc__1_.apk" upload="True" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-		<child key="{B541B8B0-4024-4BA6-90C4-F9B8DE23533B}">
-			<config nodeName="_feb96521c8f6c1a_SelfServiceApp2_2_23" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="BitBar">
-					<param name="BitBar" parameters="" workFolder="" application="C:\Users\nilim.nath\Downloads\3feb96521c8f6c1a-SelfServiceApp2.2.23.ipa" upload="True" />
 				</runModeParams>
 			</config>
 			<testData />
@@ -266,18 +170,6 @@
 			<config nodeName="JeanCoutu_Sante_UAT_6_0_20250512_01_UAT" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="BitBar">
 					<param name="BitBar" parameters="" workFolder="" application="C:\Users\nilim.nath\Downloads\JeanCoutu_Sante_UAT_6.0.20250512.01-UAT.ipa" upload="True" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-		<child key="{9647E00D-3A85-4803-932D-3557B174167D}">
-			<config nodeName="tcFirefoxRunner" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
-					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
-					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="tcFirefoxRunner.exe" filePath="C:\Program Files (x86)\SmartBear\TestComplete 15\x64\Bin\" parameters="" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />

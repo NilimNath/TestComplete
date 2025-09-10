@@ -9,7 +9,7 @@
 		<child name="Stores" key="{5FFAABD5-5A29-4C5F-BF56-AF74523E0F06}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores" path="Stores\Stores.tcStores" />
 		<child name="TestedApps" key="{3506AEFE-73C9-4CD6-8973-4574A79A04B4}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
 		<child name="Scenarios" key="{CA9982E9-7852-4A3B-AE57-8FC92251CF7C}" type="Scenarios" typeId="{146B1623-3D4E-46FF-A0E5-CC234C212913}" pluginName="Gherkin / BDD" path="Scenarios\Scenarios.tcTestCases" />
-		<child name="LLCollection1" key="{E94759A3-7292-43D1-89A7-39C3FE8DC11B}" type="Low-Level Procedures Collection" typeId="{2D89293F-6B07-4679-9906-EFAE4B1A433C}" pluginName="Low-Level Procedures Container" path="LLCollection1\LLCollection1.tcLLC" />
+		<child name="LLCollection" key="{E94759A3-7292-43D1-89A7-39C3FE8DC11B}" type="Low-Level Procedures Collection" typeId="{2D89293F-6B07-4679-9906-EFAE4B1A433C}" pluginName="Low-Level Procedures Container" path="LLCollection1\LLCollection.tcLLC" />
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{F4D5EC79-0AAC-4596-8FFF-1B3B1614AE8E}" version="14">
@@ -359,7 +359,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="20" colIndex="0">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="21" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -377,7 +377,7 @@
 				<row val0="True" val1="XTPTaskPanel" />
 				<row val0="True" val1="XTPReport" />
 				<row val0="True" val1="XTPPopupBar" />
-				<row val0="False" val1="Credential Dialog Xaml Host" />
+				<row val0="True" val1="Credential Dialog Xaml Host" />
 				<row val0="False" val1="Chrome_WidgetWin_1" />
 				<row val0="False" val1="Intermediate D3D Window" />
 				<row val0="False" val1="_WwG" />
@@ -655,7 +655,7 @@
 		</setting>
 		<setting name="Playback_ErrHandling_ShowErrorDialog" type="1" value="True" />
 		<setting name="Playback_Log_AutosaveInterval" type="2" value="1" />
-		<setting name="Playback_Log_EventCount" type="2" value="5" />
+		<setting name="Playback_Log_EventCount" type="2" value="2" />
 		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
 		<setting name="Playback_Log_SuggestMoveSelector" type="1" value="True" />
 		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
@@ -668,7 +668,7 @@
 			</data>
 		</setting>
 		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
-		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="0" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
