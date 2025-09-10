@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{20BE30EA-33B2-4EC9-AF52-C7A2B2184677}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.slack" Data="61717A6970000000010000007606000078017D945F4C5B551CC76957786A96B080422238E59F68B2161E3667022384B02C992F0486933D30B3075EC4F0D02D3C409C0E3486108C6C660342587891198923C2D80CCB3659052A8D02BAB082E57F5B6E6F7BEFEDBD6D6F5BBEFECE4D5B03514EF2BDF7DC7B7EBFCFF9FDCEF99D53F9FED5B414AD9DA4E75BA48CB87429C7A9979252111FD73E0E7F1CD1E97447333232CC454545E7CD667383C964BA585050702E3D3DFD1D723592F48723B451C2E8D2F3F2F2CE0E0C0C3C989B9B7352133D1E4FC4ED76ABABABAB7EABD5EAE8EEEE1EC9CACA2A238FA38730F546A331DF62B1F46E6D6DC9A2282221411092FDC4BFB5B535B1A9A9E9CBD4D4D46C62EA0E70756969696F0E0E0E4EF03C1F9524099C47445FAB0B5F5DDEC6BAC30FFB8E80C6673CBE5DF443102568361CA77674740CC59949A4C160C8EAECECBC4B71EC05020130D99FF8D070DC890F739DF8BE6717ED361F4EDCE75032C661DD2B6936CCCEEBF5AA2C4E82257237D07A5FA0355264594642D69F7C1A8BF186AEBBD166F3A37CC2ABC52806648D97B0DDDCDC14B3B3B3D97AB23D3A363636666563922863DB49F14932ACE3FFF2EE7EE6C12A1FC0D34D09B33B12FEDA0D6872D23F89D8CCB7A7A7678458C69C9C9CD3C4171445C1AD16B796636FB30BD3F7FDC9F818EFDE8A8452CA95E59C10CBFDF69F2298AFCD6673502DBD5D5151D1E8F3F9C2C160101F9FDAD0182DE51B987D20E0D21B4E34BCEEC4E8371C3EB70B494E82C7DE1FFDE203F3A5987C858585E76A6A6A2CB4AEB1502804FB63518B71B07D175E57103FDEE2317C83C3EE9682655EC175625A66FD497D3A2F608953C07C692FD59292928BB5B5B5D728DE58381C46D0FF02B2F336022B5F27256F8E201CF4819776F0F4E520965DD3D4DFC6A31737F178F90E387103CC97EA27525A5ADA50555575856A54A50671BE1EFEE993FBF5FC5D285BF730B1D485F671136E3C7C0F0ECF0CBE785486B6F113189E6BD6782E974B282E2E3E4F67EB0CD50A03425A6A26D6A9FD3C6B19829E9FF1DDBC45F3670CC6BBF9AC8EF8668C2D7682F92E2C2CFC9D999969D2EBF5AFD0995C8C442250833C42DE5F11E29E680A7A1E22C4CF400D09C4BB9AE4B904077CB20B4ECE0E2524221A8D6278787882DD215433A9E5E5E59729FF10FB1F8BC5B4F14888A7785B20FE5603657D681FCF2DAC6836CC9E89EA43CECFCF3F4BAC23A4143ABBAFF5F5F58D528C7B09A6EAB727730FAEDDC10FBFB769F1B54F98E00D6C68F3B2B9696FA3ADADADBDEC5E62AC78D3532D9AA7A6A66C8CC9EC62AA1F81A54F688F3E4024E0C04B8F155D53D518FDA31D91A88ABDBD3D305B9627BB978873F08E3130667F7FFF289D9F10B33F286D1E3617896A42E9EAEA1A62F712B1FEEF6ED5B3DC693D1B67666616E9EE10A936558A23C644FD30FD132627279F53AD5DA07BEAD5FF882B9EF2BE572ADB775AE333D5D5D557EAEBEBAFD5D5D5592A2B2B1B7373734F93E53192619F47FCE31F0A9BBB5C" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+				<Data>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.slack;" />
+				</Data>
+				<Children>
+					<Operation Type="{CAAA7522-FB54-4521-BF2F-29D327FC9341}">
+						<Data Description="Terminates the process." Action="Terminate">
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Sys.Process(&quot;slack&quot;);" />
+						</Data>
+					</Operation>
+					<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+						<Data Description="Posts an information message to the test log." MessageType="0">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Slack was closed" />
+								<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+								<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+									<Values IsEnum="True">
+										<Value Type="1" Value="100" Text="pmLowest" />
+										<Value Type="1" Value="200" Text="pmLower" />
+										<Value Type="1" Value="300" Text="pmNormal" />
+										<Value Type="1" Value="400" Text="pmHigher" />
+										<Value Type="1" Value="500" Text="pmHighest" />
+									</Values>
+								</Parameter>
+								<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+								<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+						<Data Description="Delays the test execution for the specified time period.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+								<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+				<Data />
+				<Children>
+					<Operation Type="{6F092AB6-AD45-4F55-ADE1-9E63E2D69763}">
+						<Data LabelName="Open Slack" />
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{F503A89E-FD8E-4922-B6E0-A5976461A68A}">
+				<Data Name="Open Slack" />
+			</Operation>
+			<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
+				<Data Description="Runs the &quot;slack&quot; tested application." TestedApp="slack_using_CEF">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="Timeout" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="10000" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="20000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Maximizes the specified Window object." Action="Maximize">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.slack.BrowserWindow(0);" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{A41774FA-ACCE-483C-B514-F3AA3A8769B3}">
+				<Data>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.slack.pageSmartbearOrgSla.buttonSetToActive;" />
+				</Data>
+				<Children>
+					<Operation Type="{5B065688-A7F9-41DE-BA45-BF23B8116C41}">
+						<Data Comment="Clicks the Set to active button on the Pop up window" />
+					</Operation>
+					<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+						<Data Description="Performs a single click on the specified button." Action="ClickButton">
+							<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.slack.pageSmartbearOrgSla.buttonSetToActive;" />
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+				<Data />
+				<Children>
+					<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+						<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+							<Root Type="1" Operator="0">
+								<Left DefVarType="0" VarType="8" ValueType="6" ValueValue="Aliases.slack.pageSmartbearOrgSla.buttonNilimNath.vgActive.attributes.title" />
+								<Right DefVarType="0" VarType="8" ValueType="6" ValueValue="Online" />
+							</Root>
+						</Data>
+						<Children>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.slack.pageSmartbearOrgSla.buttonNilimNath;" />
+								</Data>
+							</Operation>
+							<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+								<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+									<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.slack.pageSmartbearOrgSla.buttonMenu_set_status;" />
+								</Data>
+							</Operation>
+						</Children>
+					</Operation>
+					<Operation Type="{92F2155F-410E-4D93-B7B3-684BA934382B}">
+						<Data />
+						<Children>
+							<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+								<Data Description="Posts an information message to the test log." MessageType="0">
+									<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Slack status is Online already" />
+										<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+										<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+											<Values IsEnum="True">
+												<Value Type="1" Value="100" Text="pmLowest" />
+												<Value Type="1" Value="200" Text="pmLower" />
+												<Value Type="1" Value="300" Text="pmNormal" />
+												<Value Type="1" Value="400" Text="pmHigher" />
+												<Value Type="1" Value="500" Text="pmHighest" />
+											</Values>
+										</Parameter>
+										<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+										<Parameter Name="Picture" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.slack.pageSmartbearOrgSla.buttonNilimNath" />
+										<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+									</Parameters>
+								</Data>
+							</Operation>
+						</Children>
+					</Operation>
+				</Children>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{CAAA7522-FB54-4521-BF2F-29D327FC9341}">
+				<Data Description="Terminates the process." Action="Terminate">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Sys.Process(&quot;slack&quot;);" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="5000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
+				<Data Description="Runs the &quot;slack_without_CEF&quot; tested application." TestedApp="slack_without_CEF">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="Timeout" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Activates the specified Window object on screen." Action="Activate">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.slack.slackWIndow_without_CEF;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Closes the specified Window object." Action="Close">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="2000" VarType="3" ValueType="1" ValueValue="2000" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.slack.slackWIndow_without_CEF;" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{71BD81E1-331A-4F54-9D96-231C6D49E60B}" />
+</Root>

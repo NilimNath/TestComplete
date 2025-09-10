@@ -103,7 +103,7 @@
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
-		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="0" />
+		<setting name="BitBar_FRAMEWORKID_Android" type="2" value="869" />
 		<setting name="BitBar_FRAMEWORKID_IOS" type="2" value="871" />
 		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
@@ -359,7 +359,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="18" colIndex="0">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="20" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -384,6 +384,9 @@
 				<row val0="False" val1="Windows.UI.Core.CoreWindow" />
 				<row val0="False" val1="ApplicationFrameWindow" />
 				<row val0="False" val1="Afx:ToolBar:400000:8:10003:10" />
+				<row val0="True" val1="ZPPTMainFrmWndClassEx" />
+				<row val0="False" val1="Chrome_RenderWidgetHostHWND" />
+				<row val0="True" val1="NetUIHWND" />
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
@@ -427,7 +430,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="7" colIndex="0">
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="8" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -441,6 +444,7 @@
 				<row val0="False" val1="ApplicationFrameInputSinkWindow" />
 				<row val0="False" val1="Afx:ToolBar:400000:8:10003:10" />
 				<row val0="True" val1="Windows.UI.Composition.DesktopWindowContentBridge" />
+				<row val0="True" val1="BubblePopupContainerWnd" />
 			</data>
 		</setting>
 		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
@@ -651,7 +655,7 @@
 		</setting>
 		<setting name="Playback_ErrHandling_ShowErrorDialog" type="1" value="True" />
 		<setting name="Playback_Log_AutosaveInterval" type="2" value="1" />
-		<setting name="Playback_Log_EventCount" type="2" value="0" />
+		<setting name="Playback_Log_EventCount" type="2" value="5" />
 		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
 		<setting name="Playback_Log_SuggestMoveSelector" type="1" value="True" />
 		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
@@ -664,7 +668,7 @@
 			</data>
 		</setting>
 		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="False" />
-		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="0" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
 		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="50" />
 		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
 		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />

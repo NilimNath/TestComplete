@@ -35,6 +35,29 @@
 					</Parameters>
 				</Data>
 			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Selects the %p1 tab of the &apos;%n&apos; tab control." Action="ClickTab" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="Data" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.EXCEL.wndXLMAIN2.EXCEL2.toolbar.Ribbon.NUIPane.propertypageRibbon.tablistRibbonTabs;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.EXCEL.wndXLMAIN2.EXCEL2.toolbar.Ribbon.NUIPane.propertypageRibbon.paneLowerRibbon.propertypageData.toolbarGetTransformData.dropdownbuttonGetData;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.EXCEL.wndNetUIToolWindow.popup.panel.grouping.menuitemFromFile;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.EXCEL.wndNetUIToolWindow.popup.panel.grouping.menuitemFromTextCsv;" />
+				</Data>
+			</Operation>
 		</Children>
 	</TestData>
 	<Variables Version="4" Key="{8109C9D2-A0E6-4A47-9DB2-20E59DF75FA2}">

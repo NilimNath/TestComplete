@@ -28,5 +28,8 @@
 		<child name="IE_mode" key="{6698BB3A-561E-4269-A4E5-6A8730EA05FC}" path="IE_mode.tcKDTest" />
 		<child name="Set_Slack_status_online" key="{206F52D3-87A0-496B-8442-FE6E86FA822D}" path="Set_Slack_status_online.tcKDTest" />
 		<child name="Close_processes" key="{433691B0-0817-469C-A259-4153241C0623}" path="Close_processes.tcKDTest" />
+		<child name="Open_Zoom" key="{07875368-259A-45C7-9F44-1691D7E8D62D}" path="Open_Zoom.tcKDTest" />
+		<child name="Set_Slack_status_OnBreak" key="{656FDE83-3110-45C1-9A9D-B999C580DE73}" path="Set_Slack_status_OnBreak.tcKDTest" />
+		<child name="Open_M365_CoPilot" key="{3DB9C39E-09FA-4E09-A594-2832F8CBEA34}" path="Open_M365_CoPilot.tcKDTest" />
 	</children>
 </Root>

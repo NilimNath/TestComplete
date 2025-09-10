@@ -7,10 +7,10 @@
 		<child key="{324C69FE-9D60-4AC3-84E7-B75FDEF3A66B}">
 			<config nodeName="Zoom" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
-					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
-					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="Zoom.exe" filePath="C:\Program Files (x86)\Zoom\bin\" parameters="" workFolder="" />
+					<param name="RunAs" parameters="-cdpAutoSetPort" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="-cdpAutoSetPort" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="-cdpAutoSetPort" workFolder="" />
+					<param name="Simple" fileName="Zoom.exe" filePath="C:\Program Files (x86)\Zoom\bin\" parameters="-cdpAutoSetPort" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />
@@ -59,6 +59,18 @@
 					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
 					<param name="Debug" parameters="" workFolder="" />
 					<param name="Simple" fileName="slack.exe" filePath="C:\Users\nilim.nath\AppData\Local\slack\" parameters="" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{A36EB9DE-A74E-4511-B3ED-537B840F75BE}">
+			<config nodeName="M365_CoPilot" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="--edge-webview-switches=--remote-debugging-port=9222" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="--edge-webview-switches=--remote-debugging-port=9222" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="--edge-webview-switches=--remote-debugging-port=9222" workFolder="" />
+					<param name="Simple" fileName="WebViewHost.exe" filePath="C:\Program Files\WindowsApps\Microsoft.MicrosoftOfficeHub_19.2509.34011.0_x64__8wekyb3d8bbwe\" parameters="--edge-webview-switches=--remote-debugging-port=9222" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />
@@ -254,6 +266,18 @@
 			<config nodeName="JeanCoutu_Sante_UAT_6_0_20250512_01_UAT" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="BitBar">
 					<param name="BitBar" parameters="" workFolder="" application="C:\Users\nilim.nath\Downloads\JeanCoutu_Sante_UAT_6.0.20250512.01-UAT.ipa" upload="True" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{9647E00D-3A85-4803-932D-3557B174167D}">
+			<config nodeName="tcFirefoxRunner" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="tcFirefoxRunner.exe" filePath="C:\Program Files (x86)\SmartBear\TestComplete 15\x64\Bin\" parameters="" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{0600CDD9-48A9-4235-AA08-7BDE087ECE52}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.Zoom" Data="61717A6970000000010000007606000078017594794C14771CC5679775776757914322E2D12D9443A8A29462B128872E2A0AA2025AA4A8605114AB9C6AB15C6DC1F448DABF1A8826AD4D4DD33FB449D336361A5BB455AB556A45BC51E410F6E8C2EEB2D7CCBC7E6760D12676B26F766677F2C9FBBEF79B5F5A668D92918E043A4791A68D4BC6E8E88A6152C6FF976E9E7392338CDC5FC9042704CA56D4442B8E7C91A8ECF8315569BCB4528D2B196A9C59A61AF83A4979B96E9EA28D9E49F39BC4043E07E3FD499E11222F3E96A8EC3CBB5CE5BEB0420D917379951A57335874AC66717D0D8BCE4C16B7B2587465AAB9EF53941D4BA72BF43286A1CFD3432167945B437D1A7ED5ABF8DF8973719CF32779BAF60CA78B58B789757F2D8BEE6C168FD6B1B89BA5B617E814255EA6F8BD2A44BE8D3C39458E282FE72FF2F337E9E638E71E711E881CD2E3F52CFA37B018CCD188F7F6F419F24C9115AC66743FA4AA06A58CA4D9D4789623CE76972471C84F0FA98F38032443AE06A63C0DFE21B5EB555703554C50D62CF9F64B2B55823723D1CF0D312392C811677B38EEC7CB19224F22CB4C9CE18D1AD836D1752EEB4A0A92277F1C37E9C458461A7466FBE2D63A5FDC5DEF8B7B1B7CD19DE38B9E0D93D19B3379623663AE16A64DBEB010C74AB2E74F81335F0B77BE069FC4293F3B91ACEC143D7557258333F4801F314E8833F561E4480546DBBF81714B084CE469A42903EEDFBE859D3C390AFDC1FF720C7C7D2A843727E3CA1AEDD5737A9551ECEC614934F11EC3D9750186BA95183A900CC3EE18982BE2C10F0FC17A28559ACD7DAA0D7C673B5C6F68E029D5018647105A5643280AC0A38DFE8FA58C281F31A381BD71F0F4DD81FDEC5730E40748190DEF5B20F11CF5CB314A0CEEF4510837DBC16FD6027BC20023CDF45136B81D33E0D9357B621D79FB37ED0C07D77F07CE9FDB305C18046BF918CFD3982E65249C390A749D07B6FA81AF88014CBDE03ECD83A74C07F7DE9770638DDA22F6F644ECAC2008E6D248D89AD742B099E13AD50A47592484C16EF0275BC0EF9C0DA1EB1C84817BE0AB63C1B5BE055806E1F9300BAE8A48F4EE8A349E4F57DD16FBB754254020EF705827243CB90FAE702AF8639580B91F708D42E8BE06E1FAE9F16746C09F6E83B37A1E1CFBE7E3425154C79789CA93E27A1C2E9C06FBAE70387787C345E2CA48A52F506F53206C0B80504E7D1D8C87A73206EECA68B81B93E16A4A81F3E0428C1E5C00FBA1781C5D17769CDEDB1D965C9697FAA7BCC57524654DFD630B792B9E06AE2498BA9C053765E4A28C9C155170D490A7030B305A1B0F7BFD6BB0342CE6F5E1FE19115364513DD96A83D83F479D0905631CB17FAE643AB89D33A9B73970BF1D065779049C55D1D26CF677E260AB5B045B5312AC1F24E38F7D8B6E0669274DF791313EB49F357A366B05148ECDC66F0FA2FE43A4FEDD7B429F726AE6C341F3D9DF7D15B6864458DF5F8A91E634985BF47CDEC21905DE3D462D67349F27B2AD9EA240C1BB8E3C652FC2BD8FF2AC9C4BB3BD4C1911E710716836EB7B4BC8530A860FEB31D4AC77ED4F0FAF17F7E2A73B20C3A8158CA626565B3B503CCBE4DC132A481955C75046B194D12BB0D725C0D6F8BAC419695906F3613DDF5597D657B4784EA95221FFBF9D5F1E31D5276247ACDFEEEF72743F7594CCBDDD571D67B1351187667B50BBC478B13CB1F3487EECF14DF133B7E80234A132D97FF7E67F018C225FC3" />
+					<Bitmap Name="Aliases.Zoom.wndZPFloatToolbarClass" Data="61717A697000000001000000360400007801A5934F4AC34014C6BF8007F008BAF304D90A2E856E3C831BCFE04DDC74E9C2A5221EC185A0A0146AB1AD586DEDBF34CD34994C2689EFA50D741C0AA94EF8260993DFCBCBF74D8E6AEE0E8AE1D27C40DA5DC9C11E5DD158AD2F6F96738EFF1FA7C72EB6D1D9C961F17CF9E687DB4B24C1146A3E86F24750B321626F8078DA473CF982FCEE22FA6C217C6F40BC3DC16F3DDABCF030A83B86C2C605EAED059CEBC850D079B1F9856FB05C6B132F3E9A16AFC3A0321FF53B361F89CABC1CF52C3E9561D12FF75C4A8D9FF1EA2D0A0FD88752927CE5BCD6FD4FE3085777BEA1765710DF23EEDE90A46C2C5E49ECD78686B81EB3B839371453BEBFF94C2B83E55A1B79DA23169FEACABC9A4F2C3ECFD2EA7C30B3F99CDCA41A19F591E90459A2909227EC2B67A3295FDE239AF659226C9EFF816DB4FEFD658E7F39FF00D1F3F683" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Zoom.wndZPFloatToolbarClass.pane.pane.pane.pane.pane.pane.pane.pane.pane.pane.pane.pane.pane.buttonSchedule" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Caption" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Schedule" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.Zoom.wndZPFloatToolbarClass.pane.pane.pane.pane.pane.pane.pane.pane.pane.pane.pane.pane.pane.buttonSchedule;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="10000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{CAAA7522-FB54-4521-BF2F-29D327FC9341}">
+				<Data Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="368" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="127" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="UIAObject(&quot;New_event&quot;);" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="4/09/2025" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-12">
+							<Values>
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="UIAObject(&quot;New_event&quot;);" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="11" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-11">
+							<Values>
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="UIAObject(&quot;New_event&quot;);" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="Options" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+							<Values>
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="UIAObject(&quot;New_event&quot;);" />
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{CAAA7522-FB54-4521-BF2F-29D327FC9341}">
+				<Data Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="530" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="795" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="UIAObject(&quot;New_event&quot;);" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{0B2BB0F1-9F23-4110-BB26-7BAEF7A05FB9}" />
+</Root>

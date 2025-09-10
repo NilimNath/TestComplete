@@ -114,3 +114,20 @@ function Browser_version()
  Log.Message("The browser version is: " +Sys.Browser("chrome").FileVersionInfo)
 }
 
+
+
+function BB_mobile()
+{
+  var capabilities = {
+  "bitbar:device": "Google Pixel 6 Android 12 -US", 
+  "deviceName": "Google Pixel 6 Android 12 -US", 
+  "platformName": "Android", 
+  "bitbar:findDevice": "false", 
+  "automationName": "UiAutomator2", 
+  "browserName": "Chrome"
+};
+var server = "https://us-west-mobile-hub.bitbar.com/wd/hub";
+Browsers.RemoteItem(server, capabilities).Run("https://www.google.com");
+
+Log.Message(capabilities.browserVersion);
+}

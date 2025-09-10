@@ -90,3 +90,19 @@ function System()
   Log.Message(Sys.OSInfo.Version);
   Log.Message(Sys.OSInfo.VirtualPC)
 }
+
+function bb_mobile()
+{
+  var capabilities = {
+  "bitbar:device": "Google Pixel 6 Android 12 -US", 
+  "deviceName": "Google Pixel 6 Android 12 -US", 
+  "platformName": "Android", 
+  "bitbar:findDevice": "false", 
+  "automationName": "UiAutomator2", 
+  "browserName": "Chrome"
+};
+var server = "https://us-west-mobile-hub.bitbar.com/wd/hub";
+Browsers.RemoteItem(server, capabilities).Run("https://www.google.com");  
+
+Log.Message(Browsers.RemoteItem(server, capabilities).Version);
+}
