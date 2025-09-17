@@ -175,5 +175,29 @@
 			<testData />
 			<data />
 		</child>
+		<child key="{937011D9-05F1-4972-BD34-F3D296D8DA63}">
+			<config nodeName="CredentialUIBroker" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="NonAppContainerFailedMip -Embedding" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="NonAppContainerFailedMip -Embedding" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="NonAppContainerFailedMip -Embedding" workFolder="" />
+					<param name="Simple" fileName="CredentialUIBroker.exe" filePath="C:\Windows\System32\" parameters="NonAppContainerFailedMip -Embedding" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{479A4ABE-1AA0-4BFE-A214-D3D43AB6D70C}">
+			<config nodeName="ApplicationFrameHost" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="ApplicationFrameHost.exe" filePath="C:\Windows\System32\" parameters="" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
 	</children>
 </Root>

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{30501691-969F-4007-923F-BA4459E51E6A}" version="15.0">
-	<children />
+	<children>
+		<child name="buttonInstanceState" key="{E00A5537-CD84-4226-99B2-4417BE881D79}">
+			<data signature="{5EFCFFBB-0DF6-45A2-ADB2-4FD0BF2A280B}" version="15.0" caption="buttonInstanceState" ID="{E00A5537-CD84-4226-99B2-4417BE881D79}" FileName="Objects\buttonInstanceState.tcObject" Update="False" />
+		</child>
+	</children>
 </Root>

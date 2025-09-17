@@ -24,5 +24,6 @@
 		<child name="Set_Slack_status_OnBreak" key="{656FDE83-3110-45C1-9A9D-B999C580DE73}" path="Set_Slack_status_OnBreak.tcKDTest" />
 		<child name="Open_M365_CoPilot" key="{3DB9C39E-09FA-4E09-A594-2832F8CBEA34}" path="Open_M365_CoPilot.tcKDTest" />
 		<child name="UAC" key="{FC8FC642-9D05-47B0-95CE-2B91DF1A14E9}" path="UAC.tcKDTest" />
+		<child name="Web_tests" key="{0A81F291-60AD-4C49-805B-FA5F275D20CA}" path="Web_tests.tcKDTest" />
 	</children>
 </Root>

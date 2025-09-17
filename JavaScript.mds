@@ -14,16 +14,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{F4D5EC79-0AAC-4596-8FFF-1B3B1614AE8E}" version="14">
 		<children>
-			<testItem name="ProjectTestItem1" key="{9CB7CA18-566F-4659-8409-BD7FF59A0ADB}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{206F52D3-87A0-496B-8442-FE6E86FA822D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
-				<testParameters />
-				<environments activeCloud="SWT">
-					<cloud name="LocalHeadlessBrowser" testedURL="https://www.google.com">
-						<capabilities Enabled="True" Browser="Chrome" Resolution="3440x1440" CustomJSON="" />
-					</cloud>
-				</environments>
-				<children />
-			</testItem>
-			<testItem name="ProjectTestItem2" key="{1318A2B7-D12F-4EA6-BFB5-29640C386AE7}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{433691B0-0817-469C-A259-4153241C0623}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="ProjectTestItem1" key="{F4FB0501-BBD3-4C63-9659-4E9F7A6080AB}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{FC8FC642-9D05-47B0-95CE-2B91DF1A14E9}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -99,7 +90,7 @@
 		<setting name="AzureDevOps_TeamProject" type="5" value="TestComplete" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
 		<setting name="AzureDevOps_URL" type="5" value="https://dev.azure.com/nilimnath" />
-		<setting name="BitBar_APIKey" type="5" value="3A02A040E0AF828D00C21A1EFB49382163B4E172AF3818C0FCD142F23A1E46E3A18FD0C15E381E238B24D0E1191A40264D1D9F84B0AFEAB1FFEA3200960E896B128C" />
+		<setting name="BitBar_APIKey" type="5" value="3A02B0401AAB828D0CC32B82E7F30D4E3356A9ABE8A3A9E9609FE65022FE407C3081D503775018A9CB413E32FAC209130030874AA0086818AB1D9EC3517C939F1518" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
@@ -118,7 +109,7 @@
 				<row val0="Via proxy" />
 			</data>
 		</setting>
-		<setting name="CBT_Authkey" type="5" value="3A02DEEB41C50AB964C408D9ACC28DA6FBC373257468111FC2670A1E325FD84612E926CC6824FBD0AAD5DAC642DEC7E01CCEF394EE192D93015AE2BF89010CB91E344E" />
+		<setting name="CBT_Authkey" type="5" value="3A02B0401AAB828D0CC32B82E7F30D4E3356A9ABE8A3A9E9609FE65022FE407C3081D503775018A9CB413E32FAC209130030874AA0086818AB1D9EC3517C939F1518" />
 		<setting name="CBT_LocalHtmlDir" type="5" value="" />
 		<setting name="CBT_ProxyAddress" type="5" value="" />
 		<setting name="CBT_ProxyLogin" type="5" value="" />
@@ -359,7 +350,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="21" colIndex="0">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="12" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -430,7 +421,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="8" colIndex="0">
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="9" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -445,6 +436,7 @@
 				<row val0="False" val1="Afx:ToolBar:400000:8:10003:10" />
 				<row val0="True" val1="Windows.UI.Composition.DesktopWindowContentBridge" />
 				<row val0="True" val1="BubblePopupContainerWnd" />
+				<row val0="True" val1="Credential Dialog Xaml Host" />
 			</data>
 		</setting>
 		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />

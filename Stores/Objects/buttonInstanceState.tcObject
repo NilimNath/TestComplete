@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root identifier="Stores.Objects" version="2" mode="6" name="" className="" groupName="" objectType="0" selected="True">
+	<properties />
+	<children>
+		<child name="Button(0)" className="Button(0)" groupName="" objectType="0" selected="True">
+			<properties>
+				<property name="accessKey" category="Chrome" type="2" kind="3" selected="True" basic="True" value="" />
+				<property name="attributes" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[NamedNodeMap]" />
+				<property name="autofocus" category="Chrome" type="3" kind="3" selected="True" basic="True" value="False" />
+				<property name="baseURI" category="Chrome" type="2" kind="0" selected="True" basic="True" value="https://ap-southeast-2.console.aws.amazon.com/ec2/home?region=ap-southeast-2#InstanceDetails:instanceId=i-061a2424a8e801af3" />
+				<property name="ChildCount" type="1" kind="0" selected="True" basic="True" value="2" />
+				<property name="childElementCount" category="Chrome" type="1" kind="0" selected="True" basic="True" value="2" />
+				<property name="childNodes" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[NodeList]" />
+				<property name="children" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[HTMLCollection]" />
+				<property name="classList" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[DOMTokenList]" />
+				<property name="className" category="Chrome" type="2" kind="3" selected="True" basic="True" value="awsui_trigger-button_sne0l_1t2lq_206 awsui_test-utils-button-trigger_sne0l_1t2lq_263 awsui_trigger-label_q2oen_w271r_5 awsui_button_vjswe_fr4s3_153 awsui_variant-normal_vjswe_fr4s3_202 awsui_button_1ueyk_1xee3_5" />
+				<property name="clientHeight" category="Chrome" type="1" kind="0" selected="True" basic="True" value="28" />
+				<property name="clientLeft" category="Chrome" type="1" kind="0" selected="True" basic="True" value="2" />
+				<property name="clientTop" category="Chrome" type="1" kind="0" selected="True" basic="True" value="2" />
+				<property name="clientWidth" category="Chrome" type="1" kind="0" selected="True" basic="True" value="152" />
+				<property name="contentEditable" category="Chrome" type="2" kind="3" selected="True" basic="True" value="inherit" />
+				<property name="contentText" category="Extended" type="2" kind="0" selected="True" basic="True" value="Instance state" />
+				<property name="dataset" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[DOMStringMap]" />
+				<property name="dir" category="Chrome" type="2" kind="3" selected="True" basic="True" value="" />
+				<property name="disabled" category="Chrome" type="3" kind="3" selected="True" basic="True" value="False" />
+				<property name="draggable" category="Chrome" type="3" kind="3" selected="True" basic="True" value="False" />
+				<property name="Enabled" type="3" kind="0" selected="True" basic="True" value="True" />
+				<property name="Exists" type="3" kind="0" selected="True" basic="True" value="True" />
+				<property name="firstChild" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[HTMLSpanElement]" />
+				<property name="firstElementChild" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[HTMLSpanElement]" />
+				<property name="formAction" category="Chrome" type="2" kind="3" selected="True" basic="True" value="https://ap-southeast-2.console.aws.amazon.com/ec2/home?region=ap-southeast-2#InstanceDetails:instanceId=i-061a2424a8e801af3" />
+				<property name="formEnctype" category="Chrome" type="2" kind="3" selected="True" basic="True" value="" />
+				<property name="formMethod" category="Chrome" type="2" kind="3" selected="True" basic="True" value="" />
+				<property name="formNoValidate" category="Chrome" type="3" kind="3" selected="True" basic="True" value="False" />
+				<property name="formTarget" category="Chrome" type="2" kind="3" selected="True" basic="True" value="" />
+				<property name="FullName" type="2" kind="0" selected="True" basic="True" value="Sys.Browser(&quot;edge&quot;).Page(&quot;https://ap-southeast-2.console.aws.amazon.com/ec2/home?region=ap-southeast-2#InstanceDetails:instanceId=i-061a2424a8e801af3&quot;).FindElement(&quot;#compute-react-frame&quot;).FindElement(&quot;//button[.=&apos;Instance state&apos;]&quot;)" />
+				<property name="Height" type="1" kind="0" selected="True" basic="True" value="31" />
+				<property name="hidden" category="Chrome" type="3" kind="3" selected="True" basic="True" value="False" />
+				<property name="Id" type="1" kind="0" selected="True" basic="True" value="0" />
+				<property name="idStr" category="Extended" type="2" kind="0" selected="True" basic="True" value="awsui-button-dropdown__trigger:rj6:" />
+				<property name="innerHTML" category="Chrome" type="2" kind="3" selected="True" basic="True" value="&lt;span class=&quot;awsui_content_1ueyk_1xee3_6 awsui_label_1f1d4_ocied_5&quot;&gt;Instance state&lt;/span&gt;&lt;span class=&quot;awsui_icon_vjswe_fr4s3_626 awsui_icon-right_vjswe_fr4s3_631 awsui_rotate_sne0l_1t2lq_172 awsui_icon_h11ix_npnzo_189 awsui_size-normal-mapped-height_h11ix_npnzo_248 awsui_size-normal_h11ix_npnzo_244 awsui_variant-normal_h11ix_npnzo_320&quot;&gt;&lt;svg viewBox=&quot;0 0 16 16&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;m8 11 4-6H4l4 6Z&quot; class=&quot;filled stroke-linejoin-round&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;" />
+				<property name="innerText" category="Chrome" type="2" kind="0" selected="True" basic="True" value="Instance state" />
+				<property name="isContentEditable" category="Chrome" type="3" kind="0" selected="True" basic="True" value="False" />
+				<property name="labels" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[NodeList]" />
+				<property name="lang" category="Chrome" type="2" kind="3" selected="True" basic="True" value="" />
+				<property name="lastChild" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[HTMLSpanElement]" />
+				<property name="lastElementChild" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[HTMLSpanElement]" />
+				<property name="Left" type="1" kind="0" selected="True" basic="True" value="1255" />
+				<property name="localName" category="Chrome" type="2" kind="0" selected="True" basic="True" value="button" />
+				<property name="MappedName" type="2" kind="0" selected="True" basic="True" value="" />
+				<property name="Name" type="2" kind="0" selected="True" basic="True" value="Button(0)" />
+				<property name="namePropStr" category="Extended" type="2" kind="0" selected="True" basic="True" value="" />
+				<property name="namespaceURI" category="Chrome" type="2" kind="0" selected="True" basic="True" value="http://www.w3.org/1999/xhtml" />
+				<property name="NativeChromeObject" type="2" kind="0" selected="True" basic="True" value="[HTMLButtonElement]" />
+				<property name="nodeName" category="Chrome" type="2" kind="0" selected="True" basic="True" value="BUTTON" />
+				<property name="nodeType" category="Chrome" type="1" kind="0" selected="True" basic="True" value="1" />
+				<property name="ObjectIdentifier" category="Extended" type="1" kind="0" selected="True" basic="True" value="0" />
+				<property name="ObjectLabel" category="Extended" type="2" kind="0" selected="True" basic="True" value="Instance state" />
+				<property name="ObjectType" category="Extended" type="2" kind="0" selected="True" basic="True" value="Button" />
+				<property name="offsetHeight" category="Chrome" type="1" kind="0" selected="True" basic="True" value="31" />
+				<property name="offsetLeft" category="Chrome" type="1" kind="0" selected="True" basic="True" value="0" />
+				<property name="offsetParent" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[HTMLDivElement]" />
+				<property name="offsetTop" category="Chrome" type="1" kind="0" selected="True" basic="True" value="0" />
+				<property name="offsetWidth" category="Chrome" type="1" kind="0" selected="True" basic="True" value="155" />
+				<property name="outerHTML" category="Chrome" type="2" kind="3" selected="True" basic="True" value="&lt;button id=&quot;awsui-button-dropdown__trigger:rj6:&quot; class=&quot;awsui_trigger-button_sne0l_1t2lq_206 awsui_test-utils-button-trigger_sne0l_1t2lq_263 awsui_trigger-label_q2oen_w271r_5 awsui_button_vjswe_fr4s3_153 awsui_variant-normal_vjswe_fr4s3_202 awsui_button_1ueyk_1xee3_5&quot; aria-expanded=&quot;false&quot; data-analytics-funnel-value=&quot;button:rj9:&quot; data-awsui-analytics=&quot;{&amp;quot;action&amp;quot;:&amp;quot;click&amp;quot;,&amp;quot;detail&amp;quot;:{&amp;quot;label&amp;quot;:{&amp;quot;root&amp;quot;:&amp;quot;self&amp;quot;}}}&quot; data-awsui-analytics-label=&quot;.awsui_label_1f1d4_ocied_5&quot; type=&quot;button&quot; aria-haspopup=&quot;true&quot; data-analytics-performance-mark=&quot;112-1757553010066-6290&quot;&gt;&lt;span class=&quot;awsui_content_1ueyk_1xee3_6 awsui_label_1f1d4_ocied_5&quot;&gt;Instance state&lt;/span&gt;&lt;span class=&quot;awsui_icon_vjswe_fr4s3_626 awsui_icon-right_vjswe_fr4s3_631 awsui_rotate_sne0l_1t2lq_172 awsui_icon_h11ix_npnzo_189 awsui_size-normal-mapped-height_h11ix_npnzo_248 awsui_size-normal_h11ix_npnzo_244 awsui_variant-normal_h11ix_npnzo_320&quot;&gt;&lt;svg viewBox=&quot;0 0 16 16&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;m8 11 4-6H4l4 6Z&quot; class=&quot;filled stroke-linejoin-round&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/button&gt;" />
+				<property name="outerText" category="Chrome" type="2" kind="3" selected="True" basic="True" value="Instance state" />
+				<property name="ownerDocument" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[HTMLDocument]" />
+				<property name="parentElement" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[HTMLDivElement]" />
+				<property name="parentNode" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[HTMLDivElement]" />
+				<property name="ScreenLeft" type="1" kind="0" selected="True" basic="True" value="2977" />
+				<property name="ScreenTop" type="1" kind="0" selected="True" basic="True" value="430" />
+				<property name="scrollHeight" category="Chrome" type="1" kind="0" selected="True" basic="True" value="28" />
+				<property name="scrollLeft" category="Chrome" type="1" kind="3" selected="True" basic="True" value="0" />
+				<property name="scrollTop" category="Chrome" type="1" kind="3" selected="True" basic="True" value="0" />
+				<property name="scrollWidth" category="Chrome" type="1" kind="0" selected="True" basic="True" value="152" />
+				<property name="spellcheck" category="Chrome" type="3" kind="3" selected="True" basic="True" value="True" />
+				<property name="style" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[CSSStyleDeclaration]" />
+				<property name="tabIndex" category="Chrome" type="1" kind="3" selected="True" basic="True" value="0" />
+				<property name="tagName" category="Chrome" type="2" kind="0" selected="True" basic="True" value="BUTTON" />
+				<property name="textContent" category="Chrome" type="2" kind="3" selected="True" basic="True" value="Instance state" />
+				<property name="title" category="Chrome" type="2" kind="3" selected="True" basic="True" value="" />
+				<property name="Top" type="1" kind="0" selected="True" basic="True" value="405" />
+				<property name="type" category="Chrome" type="2" kind="0" selected="True" basic="True" value="button" />
+				<property name="validationMessage" category="Chrome" type="2" kind="0" selected="True" basic="True" value="" />
+				<property name="validity" category="Chrome" type="2" kind="0" selected="True" basic="True" value="[ValidityState]" />
+				<property name="value" category="Chrome" type="2" kind="3" selected="True" basic="True" value="" />
+				<property name="Visible" type="3" kind="0" selected="True" basic="True" value="True" />
+				<property name="VisibleOnScreen" type="3" kind="0" selected="True" basic="True" value="True" />
+				<property name="Width" type="1" kind="0" selected="True" basic="True" value="155" />
+				<property name="willValidate" category="Chrome" type="3" kind="0" selected="True" basic="True" value="False" />
+			</properties>
+			<children>
+				<child name="SVG(0)" className="SVG(0)" groupName="" objectType="0" selected="True">
+					<properties>
+						<property name="Enabled" type="3" kind="0" selected="True" basic="True" value="True" />
+						<property name="Visible" type="3" kind="0" selected="True" basic="True" value="True" />
+					</properties>
+					<children />
+				</child>
+				<child name="TextNode(0)" className="TextNode(0)" groupName="" objectType="0" selected="True">
+					<properties>
+						<property name="Enabled" type="3" kind="0" selected="True" basic="True" value="True" />
+						<property name="Visible" type="3" kind="0" selected="True" basic="True" value="True" />
+					</properties>
+					<children />
+				</child>
+			</children>
+		</child>
+	</children>
+</Root>
