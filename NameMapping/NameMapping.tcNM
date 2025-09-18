@@ -6340,6 +6340,236 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageShop2" Key="{A7F49CD5-0B69-4CC4-A802-DD45E91D17C7}">
+								<Image FileName="160713061" Left="14" Top="101" Right="3444" Bottom="1383" />
+								<TypeInfo Item0="{5D570FD2-B661-467D-9260-DF40A4C881C7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbearstore.smartbear.com/samples/TestComplete15/smartstore/" />
+										<Value Value="https://smartbearstore.smartbear.com/samples/TestComplete15/smartstore/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{356CCA97-B525-424A-B5E9-FDF9E11D176C}">
+										<Image FileName="160713061" Left="14" Top="101" Right="3425" Bottom="324" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSearch" Key="{3F9CAB94-3011-4F80-8A0D-C575CB643F07}">
+										<Image FileName="160713061" Left="1038" Top="174" Right="2028" Bottom="228" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;search&apos;)]" />
+												<Value Value="//form[contains(@action, &apos;search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;instasearch-form&apos;)]" />
+												<Value Value="//form[contains(@class, &apos;instasearch-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form" />
+												<Value Value="//header[@id=&apos;header&apos;]//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInstasearch" Key="{0945F84C-3FFC-4B84-BB8E-9A39FB788F20}">
+										<Image FileName="160713061" Left="1038" Top="174" Right="2028" Bottom="228" />
+										<TypeInfo Item0="{60BB1862-43A0-4515-992E-F544A551E4A3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#instasearch" />
+												<Value Value="#instasearch" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;q&apos;]" />
+												<Value Value="//input[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/input[@type=&apos;text&apos;]" />
+												<Value Value="//header[@id=&apos;header&apos;]//form/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;instasearch-term&apos;)]" />
+												<Value Value="//input[contains(@class, &apos;instasearch-term&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//input" />
+												<Value Value="//header[@id=&apos;header&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/input" />
+												<Value Value="//header[@id=&apos;header&apos;]//form/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelContentWrapper" Key="{E88D65E4-60C9-4993-8571-6A1FDF2B5F13}">
+										<Image FileName="-1794865888" Left="14" Top="104" Right="3425" Bottom="2177" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content-wrapper" />
+												<Value Value="#content-wrapper" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionContent" Key="{7C3AA6C4-7FEA-4A0F-8FAE-0FC5643B0B31}">
+										<Image FileName="1192198751" Left="1007" Top="104" Right="2432" Bottom="2177" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome to our store&apos;)]" />
+												<Value Value="//section[contains(., &apos;Welcome to our store&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleMobilePhone" Key="{17AAE49D-98EF-48DA-B7FF-F25E3C14D2C0}">
+										<Image FileName="1192198751" Left="1026" Top="280" Right="1241" Bottom="533" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Mobile phone&apos;)]" />
+												<Value Value="//article[contains(., &apos;Mobile phone&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageShopApple" Key="{EC9B3C5D-6601-416F-877A-E3C47299874C}">
+								<Image FileName="881457351" Left="14" Top="101" Right="3444" Bottom="1383" />
+								<TypeInfo Item0="{5D570FD2-B661-467D-9260-DF40A4C881C7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbearstore.smartbear.com/samples/TestComplete15/smartstore/apple" />
+										<Value Value="https://smartbearstore.smartbear.com/samples/TestComplete15/smartstore/apple" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelContentWrapper" Key="{5F2594A9-A4B9-483A-A3FE-3F8BE6B6F08E}">
+										<Image FileName="881457351" Left="14" Top="354" Right="3425" Bottom="1802" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content-wrapper" />
+												<Value Value="#content-wrapper" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{9990F8DB-40D7-4968-8E9C-3768755ACF93}">
+										<Image FileName="150895402" Left="14" Top="101" Right="3425" Bottom="1384" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;canvas-blocker&apos;)]" />
+												<Value Value="//div[contains(@class, &apos;canvas-blocker&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="header" Key="{1626F5DA-5B45-4AA5-BC77-8B2F98C238E4}">
+										<Image FileName="1916712114" Left="14" Top="101" Right="3425" Bottom="324" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSearch" Key="{07A6E502-6A5C-43A3-A942-CDD6BCD2448D}">
+										<Image FileName="1916712114" Left="1038" Top="174" Right="2028" Bottom="228" />
+										<TypeInfo Item0="{3AD3A169-5EAF-41F9-950A-8DF26C357416}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;search&apos;)]" />
+												<Value Value="//form[contains(@action, &apos;search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;instasearch-form&apos;)]" />
+												<Value Value="//form[contains(@class, &apos;instasearch-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form" />
+												<Value Value="//header[@id=&apos;header&apos;]//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInstasearch" Key="{FFED736F-0FD8-42F9-908E-786A883437D8}">
+										<Image FileName="1916712114" Left="1038" Top="174" Right="2028" Bottom="228" />
+										<TypeInfo Item0="{60BB1862-43A0-4515-992E-F544A551E4A3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#instasearch" />
+												<Value Value="#instasearch" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;q&apos;]" />
+												<Value Value="//input[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/input[@type=&apos;text&apos;]" />
+												<Value Value="//header[@id=&apos;header&apos;]//form/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;instasearch-term&apos;)]" />
+												<Value Value="//input[contains(@class, &apos;instasearch-term&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//input" />
+												<Value Value="//header[@id=&apos;header&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form/input" />
+												<Value Value="//header[@id=&apos;header&apos;]//form/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="CortanaUI" Key="{66BBEDF6-4A6B-48DC-9732-C544D5E58C20}">
@@ -11331,6 +11561,26 @@
 			<Child Name="pageGoogle2" Owner="{174009EE-04A9-4447-A4A4-00E8B8A93BAF}">
 				<Child Name="formSearch" Owner="{E7017E4A-EF35-454F-9AC2-F2FEFB77674E}">
 					<Child Name="textareaSearch" Owner="{DEF5CD89-6714-4FAF-B014-BC219B4428C7}" />
+				</Child>
+			</Child>
+			<Child Name="pageShop2" Owner="{A7F49CD5-0B69-4CC4-A802-DD45E91D17C7}">
+				<Child Name="header" Owner="{356CCA97-B525-424A-B5E9-FDF9E11D176C}">
+					<Child Name="formSearch" Owner="{3F9CAB94-3011-4F80-8A0D-C575CB643F07}">
+						<Child Name="textboxInstasearch" Owner="{0945F84C-3FFC-4B84-BB8E-9A39FB788F20}" />
+					</Child>
+				</Child>
+				<Child Name="panelContentWrapper" Owner="{E88D65E4-60C9-4993-8571-6A1FDF2B5F13}" />
+				<Child Name="sectionContent" Owner="{7C3AA6C4-7FEA-4A0F-8FAE-0FC5643B0B31}">
+					<Child Name="articleMobilePhone" Owner="{17AAE49D-98EF-48DA-B7FF-F25E3C14D2C0}" />
+				</Child>
+			</Child>
+			<Child Name="pageShopApple" Owner="{EC9B3C5D-6601-416F-877A-E3C47299874C}">
+				<Child Name="panelContentWrapper" Owner="{5F2594A9-A4B9-483A-A3FE-3F8BE6B6F08E}" />
+				<Child Name="panel" Owner="{9990F8DB-40D7-4968-8E9C-3768755ACF93}" />
+				<Child Name="header" Owner="{1626F5DA-5B45-4AA5-BC77-8B2F98C238E4}">
+					<Child Name="formSearch" Owner="{07A6E502-6A5C-43A3-A942-CDD6BCD2448D}">
+						<Child Name="textboxInstasearch" Owner="{FFED736F-0FD8-42F9-908E-786A883437D8}" />
+					</Child>
 				</Child>
 			</Child>
 		</Child>

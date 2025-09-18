@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{3506AEFE-73C9-4CD6-8973-4574A79A04B4}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
-	<config nodeName="TestedApps" />
+	<config nodeName="My Tested Applications" />
 	<testData />
 	<data />
 	<children>
