@@ -4,11 +4,8 @@
 		<child name="newFile_txt" key="{302E45DC-BF95-4FAF-A07D-E783F30607A4}">
 			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="newFile_txt" ID="{302E45DC-BF95-4FAF-A07D-E783F30607A4}" FileName="Files\newFile.txt" Update="False" />
 		</child>
-		<child name="NDA_with_SmartBear_pdf" key="{57B04F2D-0910-4930-AADF-D613936F9360}">
-			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="NDA_with_SmartBear_pdf" ID="{57B04F2D-0910-4930-AADF-D613936F9360}" FileName="..\..\..\..\..\..\Downloads\NDA with SmartBear.pdf" Update="False" />
-		</child>
-		<child name="Schneider_Electric_Systems_USA_Inc__txt" key="{AEBECC7B-16CC-4DB3-BB83-C04718405C5C}">
-			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="Schneider_Electric_Systems_USA_Inc__txt" ID="{AEBECC7B-16CC-4DB3-BB83-C04718405C5C}" FileName="Files\Schneider_Electric_Systems_USA_Inc..json" Update="False" />
+		<child name="newFile_UPDATED" key="{1962EBCA-C1BD-46FB-AE23-8EC43B57786A}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="newFile_UPDATED" ID="{1962EBCA-C1BD-46FB-AE23-8EC43B57786A}" FileName="Files\newFile_UPDATED.json" Update="False" />
 		</child>
 	</children>
 </Root>
