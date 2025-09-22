@@ -199,5 +199,14 @@
 			<testData />
 			<data />
 		</child>
+		<child key="{02409E61-CBD1-448E-9192-82F5D9778E99}">
+			<config nodeName="servicekioskapp_dev" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Android">
+					<param name="Android" parameters="" workFolder="" apkFileName="C:\Users\nilim.nath\Downloads\servicekioskapp_dev.apk" deploy="True" keepDataAndCache="False" grantPermissions="False" signAPKWithCustom="False" keystorePath="" alias="" keystorePassword="" keyPassword="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
 	</children>
 </Root>

@@ -70,39 +70,6 @@ Browsers.RemoteItem(server, capabilities).Run("https://the-internet.herokuapp.co
 
 }
 
-function TestScrollBar()
-{
-
-  Sys.Browser("chrome").Page("https://www.google.com/search?q=fosdem+2024&rlz=1C1GCEA_enAU1059AU1059&oq=FOSDEM+202&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIGCAcQRRg9qAIAsAIA&sourceid=chrome&ie=UTF-8")
-
-
-}
-
-function CampAustralia()
-{
-var capabilities = {
-  "platformName": "ANDROID", 
-  "bitbar:target": "android", 
-  "bitbar:findDevice": "false",
-  "bitbar:device": "Google Pixel 6 Android 12 -US", 
-  "deviceName": "Google Pixel 6 Android 12 -US", 
-  "automationName": "UiAutomator2", 
-  "bitbar:app": "261732481",
-  "autoGrantPermissions": true,
-  "appium:noReset": false,
-//  "appium:fullReset": false,
-//  "appium:FullContestList": true,
-//  "appium:settings[enableAnimations]": false,
-//  "appium:uiautomator2ServerLaunchTimeout": 30000,
-//  "appium:uiautomator2ServerInstallTimeout": 30000,
-  "newCommandTimeout": 600,
-  "apppackage": "au.com.campaustralia.servicekiosk",
-  "appactivity": "au.com.campaustralia.servicekiosk.Mainactivity"
-};
-var server = "https://us-west-mobile-hub.bitbar.com/wd/hub";
-Mobile.ConnectDevice(server, capabilities);
-
-}
 
 function browser_info()
 {
@@ -118,9 +85,10 @@ function Browser_version()
 
 function BB_mobile()
 {
-  var capabilities = {
-  "bitbar:device": "Google Pixel 6 Android 12 -US", 
-  "deviceName": "Google Pixel 6 Android 12 -US", 
+ 
+var capabilities = {
+  "bitbar:device": "Samsung Galaxy S23 Ultra -US", 
+  "deviceName": "Samsung Galaxy S23 Ultra -US", 
   "platformName": "Android", 
   "bitbar:findDevice": "false", 
   "automationName": "UiAutomator2", 
@@ -128,6 +96,13 @@ function BB_mobile()
 };
 var server = "https://us-west-mobile-hub.bitbar.com/wd/hub";
 Browsers.RemoteItem(server, capabilities).Run("https://www.google.com");
+Log.Message(Aliases.browser.FileVersionInfo);
+Log.Message(Sys.Browser("Remote").FileVersionInfo);
 
-Log.Message(capabilities.browserVersion);
+
+//Aliases.Device.processAndroidChrome.webView.Page("chrome://version/").FindElement("#copy-to-clipboard-icon").Click();
+
+
+
+
 }
