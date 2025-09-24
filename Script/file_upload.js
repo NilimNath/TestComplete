@@ -43,3 +43,4 @@ function FindEditbuttons()
   else
     Log.Warning("No edit buttons found.");
 }
+module.exports.FindEditbuttons = FindEditbuttons;

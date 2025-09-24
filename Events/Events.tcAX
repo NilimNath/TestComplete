@@ -42,7 +42,6 @@
 				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743811" infoControlName="General Events" infoEventName="OnLogError" infoEventRealName="OnLogError" infoDescription="Occurs when an error message is posted to the test log." />
 				<eventInfo infoTLBVer="1.0" infoGUID="{E3B0B797-A72E-46DB-A0D7-6C9EBA8E9BBC}" infoID="9" infoControlName="InkEd.InkEdit.1" infoEventName="Click_1" infoEventRealName="Click" infoDescription="Occurs when the control is clicked." />
 				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743811" infoControlName="Test Engine Events" infoEventName="OnStopTestCase" infoEventRealName="OnStopTestCase" infoDescription="Occurs when TestComplete stops running a test case or when the execution of a test case is over." />
-				<handlerInfo handlerName="EventControl1_Click" handlerMoniker="{847A6A6C-4A31-49A0-89E6-1F368034B941}EventControl1_Click" handlerEventName="Click" handlerRealIID="{B0EDF164-910A-11D2-B632-00C04F79498E}" handlerRealDispID="-600" />
 			</config>
 			<testData />
 			<data />

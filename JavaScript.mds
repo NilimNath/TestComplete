@@ -350,7 +350,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="12" colIndex="0">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="20" colIndex="1">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -376,7 +376,6 @@
 				<row val0="False" val1="ApplicationFrameWindow" />
 				<row val0="False" val1="Afx:ToolBar:400000:8:10003:10" />
 				<row val0="True" val1="ZPPTMainFrmWndClassEx" />
-				<row val0="False" val1="Chrome_RenderWidgetHostHWND" />
 				<row val0="True" val1="NetUIHWND" />
 			</data>
 		</setting>
@@ -421,7 +420,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="9" colIndex="0">
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="7" colIndex="1">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -435,8 +434,6 @@
 				<row val0="False" val1="ApplicationFrameInputSinkWindow" />
 				<row val0="False" val1="Afx:ToolBar:400000:8:10003:10" />
 				<row val0="True" val1="Windows.UI.Composition.DesktopWindowContentBridge" />
-				<row val0="True" val1="BubblePopupContainerWnd" />
-				<row val0="True" val1="Credential Dialog Xaml Host" />
 			</data>
 		</setting>
 		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
