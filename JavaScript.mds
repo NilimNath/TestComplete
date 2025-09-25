@@ -350,7 +350,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="20" colIndex="1">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="21" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -377,6 +377,7 @@
 				<row val0="False" val1="Afx:ToolBar:400000:8:10003:10" />
 				<row val0="True" val1="ZPPTMainFrmWndClassEx" />
 				<row val0="True" val1="NetUIHWND" />
+				<row val0="True" val1="Microsoft.UI.Content.DesktopChildSiteBridge" />
 			</data>
 		</setting>
 		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />

@@ -707,10 +707,6 @@
 										<Value Value="CabinetWClass" />
 										<Value Value="CabinetWClass" />
 									</Property>
-									<Property Name="WndCaption">
-										<Value Value="Downloads" />
-										<Value Value="Downloads" />
-									</Property>
 								</Properties>
 								<Children>
 									<Child Name="Downloads" Key="{7ECB0E03-276D-468D-9977-CE0A4BBB52B5}">
@@ -908,136 +904,6 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="wndLicenseManager" Key="{DA9F8DF7-18D7-4DF7-8F1A-2467D05334DE}">
-								<Image FileName="-469017276" Left="0" Top="0" Right="3458" Bottom="1398" />
-								<TypeInfo Item0="{053CB4A4-0409-4BAA-AE3A-CB18849E2152}" />
-								<Properties>
-									<Property Name="WndClass">
-										<Value Value="CabinetWClass" />
-										<Value Value="CabinetWClass" />
-									</Property>
-									<Property Name="WndCaption">
-										<Value Value="LicenseManager" />
-										<Value Value="LicenseManager" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="LicenseManager" Key="{D70C6943-6EAE-4F12-AA4E-D4E1DC926EB8}">
-										<Image FileName="-469017276" Left="9" Top="179" Right="3449" Bottom="1389" />
-										<TypeInfo Item0="{61EFBC13-5DAF-4AB8-9357-F08AB0F6778E}" />
-										<Properties>
-											<Property Name="WndClass">
-												<Value Value="ShellTabWindowClass" />
-												<Value Value="ShellTabWindowClass" />
-											</Property>
-											<Property Name="WndCaption">
-												<Value Value="LicenseManager" />
-												<Value Value="LicenseManager" />
-											</Property>
-										</Properties>
-										<Children>
-											<Child Name="DUIViewWndClassName" Key="{1F455B1C-601A-4C68-B6F0-75C74C6F6E35}">
-												<Image FileName="-469017276" Left="9" Top="179" Right="3449" Bottom="1389" />
-												<TypeInfo Item0="{61EFBC13-5DAF-4AB8-9357-F08AB0F6778E}" />
-												<Properties>
-													<Property Name="WndClass">
-														<Value Value="DUIViewWndClassName" />
-														<Value Value="DUIViewWndClassName" />
-													</Property>
-												</Properties>
-												<Children>
-													<Child Name="Explorer_Pane" Key="{3F8DE8BC-FBF4-4932-BE75-A0E03190F8BA}">
-														<Image FileName="-469017276" Left="9" Top="179" Right="3449" Bottom="1389" />
-														<TypeInfo Item0="{92974C24-E36C-483F-A4E1-7C789DC25637}" />
-														<Properties>
-															<Property Name="FrameworkId">
-																<Value Value="DirectUI" />
-																<Value Value="DirectUI" />
-															</Property>
-															<Property Name="ClassName">
-																<Value Value="HWNDView" />
-																<Value Value="HWNDView" />
-															</Property>
-															<Property Name="LocalizedControlType">
-																<Value Value="pane" />
-																<Value Value="pane" />
-															</Property>
-															<Property Name="ObjectIdentifier">
-																<Value Value="Explorer_Pane" />
-																<Value Value="Explorer_Pane" />
-															</Property>
-															<Property Name="ObjectGroupIndex">
-																<Value Value="1" Type="0" />
-																<Value Value="1" Type="0" />
-															</Property>
-														</Properties>
-														<Children>
-															<Child Name="CtrlNotifySink" Key="{0BC6537F-0AE6-4D06-A46A-C6209595CACD}">
-																<Image FileName="-469017276" Left="388" Top="179" Right="3449" Bottom="1360" />
-																<TypeInfo Item0="{61EFBC13-5DAF-4AB8-9357-F08AB0F6778E}" />
-																<Properties>
-																	<Property Name="WndClass">
-																		<Value Value="CtrlNotifySink" />
-																		<Value Value="CtrlNotifySink" />
-																	</Property>
-																	<Property Name="Index">
-																		<Value Value="5" Type="0" />
-																		<Value Value="5" Type="0" />
-																	</Property>
-																</Properties>
-																<Children>
-																	<Child Name="ShellView" Key="{FC5A8BAA-B604-4FFE-A9B9-ECCCFEA34606}">
-																		<Image FileName="-469017276" Left="388" Top="179" Right="3449" Bottom="1360" />
-																		<TypeInfo Item0="{61EFBC13-5DAF-4AB8-9357-F08AB0F6778E}" />
-																		<Properties>
-																			<Property Name="WndClass">
-																				<Value Value="SHELLDLL_DefView" />
-																				<Value Value="SHELLDLL_DefView" />
-																			</Property>
-																			<Property Name="WndCaption">
-																				<Value Value="ShellView" />
-																				<Value Value="ShellView" />
-																			</Property>
-																		</Properties>
-																		<Children>
-																			<Child Name="Items_View" Key="{EE6C5DEE-1CF0-4F98-980B-505B352B9356}">
-																				<Image FileName="-469017276" Left="388" Top="179" Right="3449" Bottom="1360" />
-																				<TypeInfo Item0="{C81F7D96-D53D-4463-8CB8-06FCDFAC6411}" />
-																				<Properties>
-																					<Property Name="FrameworkId">
-																						<Value Value="DirectUI" />
-																						<Value Value="DirectUI" />
-																					</Property>
-																					<Property Name="ClassName">
-																						<Value Value="UIItemsView" />
-																						<Value Value="UIItemsView" />
-																					</Property>
-																					<Property Name="LocalizedControlType">
-																						<Value Value="list" />
-																						<Value Value="list" />
-																					</Property>
-																					<Property Name="ObjectIdentifier">
-																						<Value Value="Items_View" />
-																						<Value Value="Items_View" />
-																					</Property>
-																					<Property Name="ObjectGroupIndex">
-																						<Value Value="1" Type="0" />
-																						<Value Value="1" Type="0" />
-																					</Property>
-																				</Properties>
-																			</Child>
-																		</Children>
-																	</Child>
-																</Children>
-															</Child>
-														</Children>
-													</Child>
-												</Children>
-											</Child>
-										</Children>
-									</Child>
-								</Children>
-							</Child>
 							<Child Name="wndTopLevelWindowForOverflowXamlIsland" Key="{2D5D6A1D-CBE4-46E1-A6E9-6D0ABE973400}">
 								<Image FileName="545659317" Left="0" Top="0" Right="293" Bottom="143" />
 								<Properties>
@@ -1149,6 +1015,57 @@
 																</Properties>
 															</Child>
 														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndCabinetWClass" Key="{F91B1776-2159-4C7E-85DB-1BDC407CC948}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CabinetWClass" />
+										<Value Value="CabinetWClass" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MicrosoftUIContentDesktopChildSiteBridge" Key="{14D61C08-D6A5-40F6-8132-38082478D15D}">
+										<TypeInfo Item0="{4D55FC73-7FAD-412A-88BE-D2443BCA5B7C}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Microsoft.UI.Content.DesktopChildSiteBridge" />
+												<Value Value="Microsoft.UI.Content.DesktopChildSiteBridge" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="grouping" Key="{361C36A9-D72A-41D9-A70F-4CCCD5AB1042}">
+												<Image FileName="1891761782" Left="333" Top="57" Right="2446" Bottom="87" />
+												<TypeInfo Item0="{045D3F36-D022-4150-94E4-396CE008907E}" />
+												<Properties>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="editAddressBar" Key="{8B666915-9C92-4048-B368-AC7743E0BF0C}">
+														<Image FileName="269788793" Left="252" Top="52" Right="2481" Bottom="92" />
+														<TypeInfo Item0="{045D3F36-D022-4150-94E4-396CE008907E}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Edit" />
+																<Value Value="Edit" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Address Bar" />
+																<Value Value="Address Bar" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
 													</Child>
 												</Children>
 											</Child>
@@ -11023,25 +10940,19 @@
 					</Child>
 				</Child>
 			</Child>
-			<Child Name="wndLicenseManager" Owner="{DA9F8DF7-18D7-4DF7-8F1A-2467D05334DE}">
-				<Child Name="LicenseManager" Owner="{D70C6943-6EAE-4F12-AA4E-D4E1DC926EB8}">
-					<Child Name="DUIViewWndClassName" Owner="{1F455B1C-601A-4C68-B6F0-75C74C6F6E35}">
-						<Child Name="Explorer_Pane" Owner="{3F8DE8BC-FBF4-4932-BE75-A0E03190F8BA}">
-							<Child Name="CtrlNotifySink" Owner="{0BC6537F-0AE6-4D06-A46A-C6209595CACD}">
-								<Child Name="ShellView" Owner="{FC5A8BAA-B604-4FFE-A9B9-ECCCFEA34606}">
-									<Child Name="Items_View" Owner="{EE6C5DEE-1CF0-4F98-980B-505B352B9356}" />
-								</Child>
-							</Child>
-						</Child>
-					</Child>
-				</Child>
-			</Child>
 			<Child Name="wndTopLevelWindowForOverflowXamlIsland" Owner="{2D5D6A1D-CBE4-46E1-A6E9-6D0ABE973400}">
 				<Child Name="DesktopWindowXamlSource" Owner="{2CBCF223-3E1E-4683-8900-3EA3A90C3B8C}">
 					<Child Name="Windows_UI_Input_InputSite_WindowClass" Owner="{6CE1EDDF-428A-413D-88A8-559A7F0345C9}">
 						<Child Name="FortiClient_FortiClient_7_0_8_0427" Owner="{084F2FD7-B781-46CD-ACCB-A90DD2FD193A}">
 							<Child Name="Image" Owner="{4DE4922F-D62A-43C4-8F82-0F233BB63461}" />
 						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="wndCabinetWClass" Owner="{F91B1776-2159-4C7E-85DB-1BDC407CC948}">
+				<Child Name="MicrosoftUIContentDesktopChildSiteBridge" Owner="{14D61C08-D6A5-40F6-8132-38082478D15D}">
+					<Child Name="grouping" Owner="{361C36A9-D72A-41D9-A70F-4CCCD5AB1042}">
+						<Child Name="editAddressBar" Owner="{8B666915-9C92-4048-B368-AC7743E0BF0C}" />
 					</Child>
 				</Child>
 			</Child>

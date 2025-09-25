@@ -25,5 +25,6 @@
 		<child name="Open_M365_CoPilot" key="{3DB9C39E-09FA-4E09-A594-2832F8CBEA34}" path="Open_M365_CoPilot.tcKDTest" />
 		<child name="UAC" key="{FC8FC642-9D05-47B0-95CE-2B91DF1A14E9}" path="UAC.tcKDTest" />
 		<child name="Web_tests" key="{0A81F291-60AD-4C49-805B-FA5F275D20CA}" path="Web_tests.tcKDTest" />
+		<child name="File_Explorer" key="{903C6A3D-0113-48EC-8E2C-BFDCD81CAE49}" path="File_Explorer.tcKDTest" />
 	</children>
 </Root>
