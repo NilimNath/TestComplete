@@ -15,5 +15,6 @@
 		<child name="Web_testing" key="{F14132BD-EC95-4392-81B1-894BB234BC0B}" path="Web_testing.js" />
 		<child name="Registry" key="{27DB471D-22D9-40DB-BBCD-54EA5BA31E4E}" path="Registry.js" />
 		<child name="Random_tests" key="{F8B5B50B-328B-4EEB-952E-87FFFAC81238}" path="Random_tests.js" />
+		<child name="PDF_tests" key="{F11FCF63-B00D-4EBF-ADB3-69C531F66E20}" path="PDF_tests.js" />
 	</children>
 </Root>

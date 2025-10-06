@@ -9005,6 +9005,62 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageW3schoolsTryitEditor" Key="{11A5A299-7452-4969-9AB0-E89F8D2431CD}">
+								<Image FileName="-1756989441" Left="9" Top="151" Right="1727" Bottom="1379" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.w3schools.com/tags/tryit.asp*" />
+										<Value Value="https://www.w3schools.com/tags/tryit.asp*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="frameIframeresult" Key="{BAA0BF30-A2EC-4AE8-9D2B-F3A88BCFB8BA}">
+										<Image FileName="-1756989441" Left="865" Top="332" Right="1696" Bottom="1367" />
+										<Selectors>
+											<Selector>
+												<Value Value="#iframeResult" />
+												<Value Value="#iframeResult" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@name=&apos;iframeResult&apos;]" />
+												<Value Value="//iframe[@name=&apos;iframeResult&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;iframewrapper&apos;]/iframe" />
+												<Value Value="//div[@id=&apos;iframewrapper&apos;]/iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/iframe" />
+												<Value Value="//div/div/div/div/iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="selectCars" Key="{4456340D-6666-45A1-8D8E-5BD0A3CD5204}">
+												<Image FileName="-1756989441" Left="989" Top="477" Right="1108" Bottom="500" />
+												<TypeInfo Item0="{2F7C2516-B212-4BB4-86E6-80ABED8342D8}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//select[@id=(//label[.=&apos;Choose a car:&apos;]/@for)]" />
+														<Value Value="//select[@id=(//label[.=&apos;Choose a car:&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#cars" />
+														<Value Value="#cars" />
+													</Selector>
+													<Selector>
+														<Value Value="//select" />
+														<Value Value="//select" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="FortiTray" Key="{53E3F0E3-6FE1-47E4-9A40-B703809AD51D}">
@@ -11738,6 +11794,11 @@
 					<Child Name="ComboBox" Owner="{08C2118F-838D-4135-B1C2-B4EC4520FE74}">
 						<Child Name="Edit" Owner="{217CA9CB-840D-42B4-9BA1-458EC32909BE}" />
 					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageW3schoolsTryitEditor" Owner="{11A5A299-7452-4969-9AB0-E89F8D2431CD}">
+				<Child Name="frameIframeresult" Owner="{BAA0BF30-A2EC-4AE8-9D2B-F3A88BCFB8BA}">
+					<Child Name="selectCars" Owner="{4456340D-6666-45A1-8D8E-5BD0A3CD5204}" />
 				</Child>
 			</Child>
 		</Child>
