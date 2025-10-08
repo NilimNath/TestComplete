@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" version="15.0">
 	<children>
-		<child name="newFile_txt" key="{302E45DC-BF95-4FAF-A07D-E783F30607A4}">
-			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="newFile_txt" ID="{302E45DC-BF95-4FAF-A07D-E783F30607A4}" FileName="Files\newFile.txt" Update="False" />
-		</child>
 		<child name="newFile_UPDATED" key="{1962EBCA-C1BD-46FB-AE23-8EC43B57786A}">
 			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="newFile_UPDATED" ID="{1962EBCA-C1BD-46FB-AE23-8EC43B57786A}" FileName="Files\newFile_UPDATED.json" Update="False" />
+		</child>
+		<child name="pdfprint_document1_txt" key="{8BE361F2-5867-4158-9826-BD8B2AA20D55}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="pdfprint_document1_txt" ID="{8BE361F2-5867-4158-9826-BD8B2AA20D55}" FileName="Files\pdfprint_document1.txt" Update="False" />
+		</child>
+		<child name="newFile_txt" key="{98AB2BE9-C5D8-4AB3-BC49-8971EB588999}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="newFile_txt" ID="{98AB2BE9-C5D8-4AB3-BC49-8971EB588999}" FileName="Files\newFile.json" Update="False" />
 		</child>
 	</children>
 </Root>

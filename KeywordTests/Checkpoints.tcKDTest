@@ -8,9 +8,9 @@
 		</Data>
 		<Children>
 			<Operation Type="{05071558-912E-4104-9730-FD329C2BDC20}">
-				<Data Description="Check whether %n matches the text extracted from the PDF file %p1." Checkpoint="newFile_UPDATED">
+				<Data Description="Check whether %n matches the text extracted from the PDF file %p1." Checkpoint="newFile_txt">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="FileName" DefVarType="8" VarType="8" ValueType="6" ValueValue="C:\Users\nilim.nath\OneDrive - SmartBear Software, Inc\Documents\newFile_UPDATED.pdf" />
+						<Parameter Name="FileName" DefVarType="8" VarType="8" ValueType="6" ValueValue="C:\Users\nilim.nath\Downloads\newFile.pdf" />
 					</Parameters>
 				</Data>
 			</Operation>

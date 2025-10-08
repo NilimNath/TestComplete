@@ -1,20 +1,8 @@
-﻿function getText()
+﻿function GetPDFText()
 {
-  var text = PDF.ConvertToText("C:\Users\nilim.nath\Downloads\pdfprint_document.pdf");
-  
-//  Log.Message(text);
-  if (text.BlockCount > 0)
-        {
-          Log.AppendFolder("Recognized text by blocks");
-          for (var i = 0; i < text.BlockCount; i++)
-          {
-            Log.Message(text.Block(i).Text);
-          }
-          Log.PopLogFolder();
-        }
-  
-  
-  var image = OCR.Recognize(Sys.Browser("chrome").Page("file:///C:/Users/nilim.nath/Downloads/pdfprint_document.pdf"));
-  
-  Log.Message(image.AsTable());
+  // Extract and recognize the PDF file text content
+  var path = "C:\\Users\\nilim.nath\\Downloads\\pdfprint_document.pdf"
+  var str = PDF.ConvertToText(path);
+  if (aqFile.Exists(path))
+    Log.Message("View the recognized text in the Details panel of the log", str);
 }
